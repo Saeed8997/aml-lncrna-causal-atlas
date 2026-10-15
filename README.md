@@ -1,10 +1,21 @@
+---
+title: AML Causal lncRNA Atlas
+emoji: 🧬
+colorFrom: indigo
+colorTo: pink
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
 # Causal lncRNA–mRNA Regulatory Atlas of Acute Myeloid Leukemia (AML)
 
 [![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-emerald.svg)](LICENSE)
 [![Atlas Scale](https://img.shields.io/badge/Single--Cell%20Atlas-748%2C679%20Cells-purple.svg)](https://cellxgene.cziscience.com/)
 [![Kaggle GPU](https://img.shields.io/badge/Compute-NVIDIA%20T4x2%20GPU-orange.svg)](https://www.kaggle.com/)
-[![Live Demo](https://img.shields.io/badge/Live%20Web%20App-Streamlit%20Cloud-ff4b4b?logo=streamlit&logoColor=white)](https://aml-lncrna-causal-atlas-iwlfvnkdg3fh5ryg4thp9h.streamlit.app/)
+[![Streamlit Cloud](https://img.shields.io/badge/Live%20Demo-Streamlit%20Cloud-ff4b4b?logo=streamlit&logoColor=white)](https://aml-lncrna-causal-atlas-iwlfvnkdg3fh5ryg4thp9h.streamlit.app/)
+[![Hugging Face Space](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-yellow)](https://huggingface.co/spaces/butterflymm/aml-lncrna-causal-atlas)
 [![CRISPRi Validated](https://img.shields.io/badge/Validation-GSE318789%20CRISPRi-teal.svg)](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE318789)
 
 > **A Multi-Resolution Constraint-Based Causal Discovery Framework for Single-Cell Metacell Atlases with In-Silico *do*-Calculus and CRISPRi Functional Validation.**
@@ -220,9 +231,10 @@ Our constraint-based causal graphs identified high-confidence multi-step cascade
 
 ## 6. Installation & Interactive Dashboard Execution
 
-### 🌐 Live Cloud Web Application (Instant Access)
+### 🌐 Live Cloud Web Applications (Instant Access)
 You can directly explore the interactive causal simulator without installing anything locally:
 - **Streamlit Community Cloud:** [https://aml-lncrna-causal-atlas-iwlfvnkdg3fh5ryg4thp9h.streamlit.app/](https://aml-lncrna-causal-atlas-iwlfvnkdg3fh5ryg4thp9h.streamlit.app/)
+- **Hugging Face Spaces (Docker):** [https://huggingface.co/spaces/butterflymm/aml-lncrna-causal-atlas](https://huggingface.co/spaces/butterflymm/aml-lncrna-causal-atlas)
 
 ---
 
