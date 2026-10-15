@@ -1,0 +1,1696 @@
+{
+  "figshare_27269946": {
+    "files": [
+      {
+        "id": 63342394,
+        "name": "AML_scAtlas_Jan2026.h5ad.gz",
+        "size": 11358833727,
+        "is_link_only": false,
+        "download_url": "https://ndownloader.figshare.com/files/63342394",
+        "supplied_md5": "4129f01567850bb1b32c89527c247e26",
+        "computed_md5": "4129f01567850bb1b32c89527c247e26",
+        "mimetype": "undefined"
+      }
+    ],
+    "folder_structure": {},
+    "authors": [
+      {
+        "id": 19922640,
+        "full_name": "Jessica Whittle",
+        "first_name": "Jessica",
+        "last_name": "Whittle",
+        "is_active": true,
+        "url_name": "Jessica_Whittle",
+        "orcid_id": ""
+      },
+      {
+        "id": 20159636,
+        "full_name": "Stefan Meyer",
+        "first_name": "Stefan",
+        "last_name": "Meyer",
+        "is_active": false,
+        "url_name": "_",
+        "orcid_id": ""
+      },
+      {
+        "id": 20159622,
+        "full_name": "Georges Lacaud",
+        "first_name": "Georges",
+        "last_name": "Lacaud",
+        "is_active": false,
+        "url_name": "_",
+        "orcid_id": ""
+      },
+      {
+        "id": 9767712,
+        "full_name": "Syed Murtuza Baker",
+        "first_name": "Syed Murtuza",
+        "last_name": "Baker",
+        "is_active": false,
+        "url_name": "_",
+        "orcid_id": ""
+      },
+      {
+        "id": 20159616,
+        "full_name": "Mudassar Iqbal",
+        "first_name": "Mudassar",
+        "last_name": "Iqbal",
+        "is_active": false,
+        "url_name": "_",
+        "orcid_id": ""
+      }
+    ],
+    "custom_fields": [
+      {
+        "name": "Research ethics approval number",
+        "value": "",
+        "settings": {
+          "validations": {
+            "min_length": 5,
+            "max_length": 1000
+          },
+          "placeholder": "Year-00000-00000"
+        },
+        "field_type": "textarea",
+        "order": null,
+        "is_mandatory": false
+      }
+    ],
+    "figshare_url": "https://figshare.manchester.ac.uk/articles/dataset/A_Single-Cell_Transcriptomic_Atlas_of_Acute_Myeloid_Leukemia/27269946",
+    "download_disabled": false,
+    "description": "<p dir=\"ltr\">Large scale integration of published scRNA-seq datasets created a unique single-cell transcriptomic atlas for AML (AML scAtlas), totalling 748,679 cells, from 159 AML patients and 51 healthy donors from 20 different studies. This is the largest single-cell data resource for AML to our knowledge, allowing AML subtype-specific investigations. </p><p dir=\"ltr\">For full details on the data, including the studies used, please refer to the related manuscript: https://doi.org/10.7554/eLife.104978.2</p><p dir=\"ltr\">The dataset is also hosted via CELLxGENE for interactive exploration: https://cellxgene.cziscience.com/collections/071b706a-7ea7-47a4-bddf-6457725839fc</p><p dir=\"ltr\">The complete analysis code can be found at: <a href=\"https://github.com/jesswhitts/AML-scAtlas\" rel=\"noreferrer\" target=\"_blank\">https://github.com/jesswhitts/AML-scAtlas</a></p>",
+    "funding": null,
+    "funding_list": [],
+    "version": 3,
+    "status": "public",
+    "size": 11358833727,
+    "created_date": "2026-04-02T11:06:00Z",
+    "modified_date": "2026-04-02T11:06:00Z",
+    "is_public": true,
+    "is_confidential": false,
+    "is_metadata_record": false,
+    "confidential_reason": "",
+    "metadata_reason": "",
+    "license": {
+      "value": 10,
+      "name": "CC BY-NC 4.0",
+      "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+    },
+    "tags": [
+      "acute myeloid leukemia",
+      "blood cancer",
+      "single-cell RNA sequencing",
+      "transcriptomics",
+      "single-cell atlas"
+    ],
+    "keywords": [
+      "acute myeloid leukemia",
+      "blood cancer",
+      "single-cell RNA sequencing",
+      "transcriptomics",
+      "single-cell atlas"
+    ],
+    "categories": [
+      {
+        "id": 24793,
+        "title": "Haematological tumours",
+        "parent_id": 24775,
+        "path": "/24457/24775/24793",
+        "source_id": "321106",
+        "taxonomy_id": 100
+      }
+    ],
+    "references": [
+      "https://github.com/jesswhitts/AML-scAtlas",
+      "https://doi.org/10.7554/eLife.104978.2",
+      "https://cellxgene.cziscience.com/collections/071b706a-7ea7-47a4-bddf-6457725839fc"
+    ],
+    "has_linked_file": false,
+    "citation": "Whittle, Jessica; Meyer, Stefan; Lacaud, Georges; Baker, Syed Murtuza; Iqbal, Mudassar (2024). A Single-Cell Transcriptomic Atlas of Acute Myeloid Leukemia. University of Manchester. Dataset. https://doi.org/10.48420/27269946.v3",
+    "related_materials": [
+      {
+        "id": 210758916,
+        "identifier": "https://github.com/jesswhitts/AML-scAtlas",
+        "title": "GitHub Repo",
+        "relation": "IsDescribedBy",
+        "identifier_type": "URL",
+        "is_linkout": false,
+        "link": "https://github.com/jesswhitts/AML-scAtlas"
+      },
+      {
+        "id": 239011970,
+        "identifier": "10.7554/eLife.104978.2",
+        "title": "eLife",
+        "relation": "IsPublishedIn",
+        "identifier_type": "DOI",
+        "is_linkout": true,
+        "link": "https://doi.org/10.7554/eLife.104978.2"
+      },
+      {
+        "id": 274724254,
+        "identifier": "https://cellxgene.cziscience.com/collections/071b706a-7ea7-47a4-bddf-6457725839fc",
+        "title": "CELLxGENE",
+        "relation": "IsSupplementTo",
+        "identifier_type": "URL",
+        "is_linkout": true,
+        "link": "https://cellxgene.cziscience.com/collections/071b706a-7ea7-47a4-bddf-6457725839fc"
+      }
+    ],
+    "is_embargoed": false,
+    "embargo_date": null,
+    "embargo_type": null,
+    "embargo_title": "",
+    "embargo_reason": "",
+    "embargo_options": [],
+    "id": 27269946,
+    "title": "A Single-Cell Transcriptomic Atlas of Acute Myeloid Leukemia",
+    "doi": "10.48420/27269946.v3",
+    "handle": "",
+    "url": "https://api.figshare.com/v2/articles/27269946",
+    "published_date": "2026-04-02T11:05:59Z",
+    "thumb": "",
+    "defined_type": 3,
+    "defined_type_name": "dataset",
+    "group_id": 29325,
+    "url_private_api": "https://api.figshare.com/v2/account/articles/27269946",
+    "url_public_api": "https://api.figshare.com/v2/articles/27269946",
+    "url_private_html": "https://figshare.com/account/articles/27269946",
+    "url_public_html": "https://figshare.manchester.ac.uk/articles/dataset/A_Single-Cell_Transcriptomic_Atlas_of_Acute_Myeloid_Leukemia/27269946",
+    "timeline": {
+      "posted": "2026-04-02T11:05:59",
+      "firstOnline": "2024-11-12"
+    },
+    "resource_title": null,
+    "resource_doi": null
+  },
+  "cellxgene_071b706a": {
+    "collection_id": "071b706a-7ea7-47a4-bddf-6457725839fc",
+    "collection_url": "https://cellxgene.cziscience.com/collections/071b706a-7ea7-47a4-bddf-6457725839fc",
+    "collection_version_id": "e4524129-70be-4ad9-9d83-e4d4683d7a74",
+    "consortia": [],
+    "contact_email": "jessica.whittle@cruk.manchester.ac.uk",
+    "contact_name": "Jessica Whittle",
+    "created_at": "2026-10-13T02:52:27+00:00",
+    "curator_name": "James Chaffer",
+    "datasets": [
+      {
+        "assay": [
+          {
+            "label": "10x 3' v1",
+            "ontology_term_id": "EFO:0009901"
+          },
+          {
+            "label": "10x 3' v2",
+            "ontology_term_id": "EFO:0009899"
+          },
+          {
+            "label": "10x 3' v3",
+            "ontology_term_id": "EFO:0009922"
+          },
+          {
+            "label": "10x 5' v1",
+            "ontology_term_id": "EFO:0011025"
+          },
+          {
+            "label": "10x 5' v2",
+            "ontology_term_id": "EFO:0009900"
+          },
+          {
+            "label": "10x transcription profiling",
+            "ontology_term_id": "EFO:0030080"
+          },
+          {
+            "label": "SORT-seq",
+            "ontology_term_id": "EFO:0030074"
+          },
+          {
+            "label": "Seq-Well",
+            "ontology_term_id": "EFO:0008919"
+          },
+          {
+            "label": "Smart-seq2",
+            "ontology_term_id": "EFO:0008931"
+          }
+        ],
+        "assets": [
+          {
+            "filesize": 6398033807,
+            "filetype": "H5AD",
+            "url": "https://datasets.cellxgene.cziscience.com/be1f3ced-6b8f-47b0-a3e2-7edc8d466abd.h5ad"
+          }
+        ],
+        "batch_condition": [
+          "Study"
+        ],
+        "cell_count": 748679,
+        "cell_type": [
+          {
+            "label": "B cell",
+            "ontology_term_id": "CL:0000236"
+          },
+          {
+            "label": "T cell",
+            "ontology_term_id": "CL:0000084"
+          },
+          {
+            "label": "common myeloid progenitor",
+            "ontology_term_id": "CL:0000049"
+          },
+          {
+            "label": "conventional dendritic cell",
+            "ontology_term_id": "CL:0000990"
+          },
+          {
+            "label": "erythroid lineage cell",
+            "ontology_term_id": "CL:0000764"
+          },
+          {
+            "label": "granulocyte monocyte progenitor cell",
+            "ontology_term_id": "CL:0000557"
+          },
+          {
+            "label": "hematopoietic stem cell",
+            "ontology_term_id": "CL:0000037"
+          },
+          {
+            "label": "megakaryocyte-erythroid progenitor cell",
+            "ontology_term_id": "CL:0000050"
+          },
+          {
+            "label": "monocyte",
+            "ontology_term_id": "CL:0000576"
+          },
+          {
+            "label": "natural killer cell",
+            "ontology_term_id": "CL:0000623"
+          },
+          {
+            "label": "plasma cell",
+            "ontology_term_id": "CL:0000786"
+          },
+          {
+            "label": "plasmacytoid dendritic cell",
+            "ontology_term_id": "CL:0000784"
+          },
+          {
+            "label": "pro-B cell",
+            "ontology_term_id": "CL:0000826"
+          },
+          {
+            "label": "promonocyte",
+            "ontology_term_id": "CL:0000559"
+          }
+        ],
+        "citation": "Publication: https://doi.org/10.7554/eLife.104978.2 Dataset Version: https://datasets.cellxgene.cziscience.com/be1f3ced-6b8f-47b0-a3e2-7edc8d466abd.h5ad curated and distributed by CZ CELLxGENE Discover in Collection: https://cellxgene.cziscience.com/collections/071b706a-7ea7-47a4-bddf-6457725839fc",
+        "dataset_id": "4568ebb2-468c-4381-9ce7-81cd97abcd22",
+        "dataset_version_id": "be1f3ced-6b8f-47b0-a3e2-7edc8d466abd",
+        "default_embedding": "X_scVI_umap",
+        "development_stage": [
+          {
+            "label": "1-year-old stage",
+            "ontology_term_id": "HsapDv:0000246"
+          },
+          {
+            "label": "10-year-old stage",
+            "ontology_term_id": "HsapDv:0000104"
+          },
+          {
+            "label": "11-year-old stage",
+            "ontology_term_id": "HsapDv:0000105"
+          },
+          {
+            "label": "12-year-old stage",
+            "ontology_term_id": "HsapDv:0000106"
+          },
+          {
+            "label": "13-year-old stage",
+            "ontology_term_id": "HsapDv:0000107"
+          },
+          {
+            "label": "14-year-old stage",
+            "ontology_term_id": "HsapDv:0000108"
+          },
+          {
+            "label": "15-year-old stage",
+            "ontology_term_id": "HsapDv:0000109"
+          },
+          {
+            "label": "16-year-old stage",
+            "ontology_term_id": "HsapDv:0000110"
+          },
+          {
+            "label": "17-year-old stage",
+            "ontology_term_id": "HsapDv:0000111"
+          },
+          {
+            "label": "18-month-old stage",
+            "ontology_term_id": "HsapDv:0000191"
+          },
+          {
+            "label": "19-month-old stage",
+            "ontology_term_id": "HsapDv:0000192"
+          },
+          {
+            "label": "19-year-old stage",
+            "ontology_term_id": "HsapDv:0000113"
+          },
+          {
+            "label": "2-month-old stage",
+            "ontology_term_id": "HsapDv:0000175"
+          },
+          {
+            "label": "2-year-old stage",
+            "ontology_term_id": "HsapDv:0000096"
+          },
+          {
+            "label": "20-year-old stage",
+            "ontology_term_id": "HsapDv:0000114"
+          },
+          {
+            "label": "21-year-old stage",
+            "ontology_term_id": "HsapDv:0000115"
+          },
+          {
+            "label": "22-year-old stage",
+            "ontology_term_id": "HsapDv:0000116"
+          },
+          {
+            "label": "23-year-old stage",
+            "ontology_term_id": "HsapDv:0000117"
+          },
+          {
+            "label": "24-year-old stage",
+            "ontology_term_id": "HsapDv:0000118"
+          },
+          {
+            "label": "26-year-old stage",
+            "ontology_term_id": "HsapDv:0000120"
+          },
+          {
+            "label": "28-year-old stage",
+            "ontology_term_id": "HsapDv:0000122"
+          },
+          {
+            "label": "29-year-old stage",
+            "ontology_term_id": "HsapDv:0000123"
+          },
+          {
+            "label": "3-year-old stage",
+            "ontology_term_id": "HsapDv:0000097"
+          },
+          {
+            "label": "30-year-old stage",
+            "ontology_term_id": "HsapDv:0000124"
+          },
+          {
+            "label": "31-year-old stage",
+            "ontology_term_id": "HsapDv:0000125"
+          },
+          {
+            "label": "32-year-old stage",
+            "ontology_term_id": "HsapDv:0000126"
+          },
+          {
+            "label": "33-year-old stage",
+            "ontology_term_id": "HsapDv:0000127"
+          },
+          {
+            "label": "35-year-old stage",
+            "ontology_term_id": "HsapDv:0000129"
+          },
+          {
+            "label": "36-year-old stage",
+            "ontology_term_id": "HsapDv:0000130"
+          },
+          {
+            "label": "38-year-old stage",
+            "ontology_term_id": "HsapDv:0000132"
+          },
+          {
+            "label": "39-year-old stage",
+            "ontology_term_id": "HsapDv:0000133"
+          },
+          {
+            "label": "4-year-old stage",
+            "ontology_term_id": "HsapDv:0000098"
+          },
+          {
+            "label": "41-year-old stage",
+            "ontology_term_id": "HsapDv:0000135"
+          },
+          {
+            "label": "42-year-old stage",
+            "ontology_term_id": "HsapDv:0000136"
+          },
+          {
+            "label": "43-year-old stage",
+            "ontology_term_id": "HsapDv:0000137"
+          },
+          {
+            "label": "44-year-old stage",
+            "ontology_term_id": "HsapDv:0000138"
+          },
+          {
+            "label": "45-year-old stage",
+            "ontology_term_id": "HsapDv:0000139"
+          },
+          {
+            "label": "46-year-old stage",
+            "ontology_term_id": "HsapDv:0000140"
+          },
+          {
+            "label": "47-year-old stage",
+            "ontology_term_id": "HsapDv:0000141"
+          },
+          {
+            "label": "48-year-old stage",
+            "ontology_term_id": "HsapDv:0000142"
+          },
+          {
+            "label": "5-year-old stage",
+            "ontology_term_id": "HsapDv:0000099"
+          },
+          {
+            "label": "50-year-old stage",
+            "ontology_term_id": "HsapDv:0000144"
+          },
+          {
+            "label": "51-year-old stage",
+            "ontology_term_id": "HsapDv:0000145"
+          },
+          {
+            "label": "52-year-old stage",
+            "ontology_term_id": "HsapDv:0000146"
+          },
+          {
+            "label": "53-year-old stage",
+            "ontology_term_id": "HsapDv:0000147"
+          },
+          {
+            "label": "54-year-old stage",
+            "ontology_term_id": "HsapDv:0000148"
+          },
+          {
+            "label": "55-year-old stage",
+            "ontology_term_id": "HsapDv:0000149"
+          },
+          {
+            "label": "56-year-old stage",
+            "ontology_term_id": "HsapDv:0000150"
+          },
+          {
+            "label": "57-year-old stage",
+            "ontology_term_id": "HsapDv:0000151"
+          },
+          {
+            "label": "58-year-old stage",
+            "ontology_term_id": "HsapDv:0000152"
+          },
+          {
+            "label": "59-year-old stage",
+            "ontology_term_id": "HsapDv:0000153"
+          },
+          {
+            "label": "6-year-old stage",
+            "ontology_term_id": "HsapDv:0000100"
+          },
+          {
+            "label": "60-year-old stage",
+            "ontology_term_id": "HsapDv:0000154"
+          },
+          {
+            "label": "61-year-old stage",
+            "ontology_term_id": "HsapDv:0000155"
+          },
+          {
+            "label": "62-year-old stage",
+            "ontology_term_id": "HsapDv:0000156"
+          },
+          {
+            "label": "63-year-old stage",
+            "ontology_term_id": "HsapDv:0000157"
+          },
+          {
+            "label": "64-year-old stage",
+            "ontology_term_id": "HsapDv:0000158"
+          },
+          {
+            "label": "65-year-old stage",
+            "ontology_term_id": "HsapDv:0000159"
+          },
+          {
+            "label": "66-year-old stage",
+            "ontology_term_id": "HsapDv:0000160"
+          },
+          {
+            "label": "67-year-old stage",
+            "ontology_term_id": "HsapDv:0000161"
+          },
+          {
+            "label": "7-year-old stage",
+            "ontology_term_id": "HsapDv:0000101"
+          },
+          {
+            "label": "70-year-old stage",
+            "ontology_term_id": "HsapDv:0000164"
+          },
+          {
+            "label": "71-year-old stage",
+            "ontology_term_id": "HsapDv:0000165"
+          },
+          {
+            "label": "72-year-old stage",
+            "ontology_term_id": "HsapDv:0000166"
+          },
+          {
+            "label": "73-year-old stage",
+            "ontology_term_id": "HsapDv:0000167"
+          },
+          {
+            "label": "74-year-old stage",
+            "ontology_term_id": "HsapDv:0000168"
+          },
+          {
+            "label": "75-year-old stage",
+            "ontology_term_id": "HsapDv:0000169"
+          },
+          {
+            "label": "76-year-old stage",
+            "ontology_term_id": "HsapDv:0000170"
+          },
+          {
+            "label": "77-year-old stage",
+            "ontology_term_id": "HsapDv:0000171"
+          },
+          {
+            "label": "78-year-old stage",
+            "ontology_term_id": "HsapDv:0000172"
+          },
+          {
+            "label": "79-year-old stage",
+            "ontology_term_id": "HsapDv:0000173"
+          },
+          {
+            "label": "8-month-old stage",
+            "ontology_term_id": "HsapDv:0000181"
+          },
+          {
+            "label": "8-year-old stage",
+            "ontology_term_id": "HsapDv:0000102"
+          },
+          {
+            "label": "80-year-old stage",
+            "ontology_term_id": "HsapDv:0000206"
+          },
+          {
+            "label": "81-year-old stage",
+            "ontology_term_id": "HsapDv:0000207"
+          },
+          {
+            "label": "84-year-old stage",
+            "ontology_term_id": "HsapDv:0000210"
+          },
+          {
+            "label": "85-year-old stage",
+            "ontology_term_id": "HsapDv:0000211"
+          },
+          {
+            "label": "9-year-old stage",
+            "ontology_term_id": "HsapDv:0000103"
+          },
+          {
+            "label": "adult stage",
+            "ontology_term_id": "HsapDv:0000258"
+          },
+          {
+            "label": "unknown",
+            "ontology_term_id": "unknown"
+          }
+        ],
+        "disease": [
+          {
+            "label": "myeloid leukemia",
+            "ontology_term_id": "MONDO:0004643"
+          },
+          {
+            "label": "normal",
+            "ontology_term_id": "PATO:0000461"
+          }
+        ],
+        "donor_id": [
+          "AML508084",
+          "AML548327",
+          "AML721214",
+          "AML782328",
+          "AML809653",
+          "AML027",
+          "AML035",
+          "AML1012",
+          "AML210A",
+          "AML314",
+          "AML328",
+          "AML329",
+          "AML371",
+          "AML419A",
+          "AML420B",
+          "AML475",
+          "AML556",
+          "AML707B",
+          "AML722B",
+          "AML870",
+          "AML916",
+          "AML921A",
+          "AML997",
+          "AML682",
+          "AML683",
+          "AML684",
+          "AML685",
+          "AMLS220",
+          "AMLS2275",
+          "AMLS232",
+          "AMLS292",
+          "AMLS3432",
+          "AMLS914",
+          "AMLV01",
+          "AMLV02",
+          "AMLV03",
+          "AMLV04",
+          "AML013",
+          "AML016",
+          "AML049",
+          "AML060",
+          "AML068",
+          "AML070",
+          "AML072",
+          "AML076",
+          "AML101",
+          "AMLJOHNSTON",
+          "AMLA01",
+          "AMLA02",
+          "AMLA03",
+          "AMLA04",
+          "AMLA05",
+          "AMLA06",
+          "AMLA07",
+          "AMLA08",
+          "AMLA09",
+          "AMLA10",
+          "AMLA11",
+          "AMLA12",
+          "AMLA13",
+          "AMLA14",
+          "AMLA15",
+          "AMLB01",
+          "AMLB02",
+          "AMLB03",
+          "AMLB04",
+          "AMLPT03",
+          "AMLPT08",
+          "AMLPT09",
+          "AMLPT10",
+          "AML8799",
+          "AMLP105",
+          "AMLP106",
+          "AMLP108",
+          "AMLP114",
+          "AMLP115",
+          "AMLP116",
+          "AMLP117",
+          "AMLP118",
+          "AMLP119",
+          "AMLP120",
+          "AMLP122",
+          "AMLP123",
+          "AMLP124",
+          "AML01D",
+          "AML02D",
+          "AML03D",
+          "AML04D",
+          "AML05D",
+          "AML06D",
+          "AML07D",
+          "AML08D",
+          "AML09D",
+          "AML10D",
+          "AML11D",
+          "AML12D",
+          "AML13D",
+          "AML14D",
+          "AML16D",
+          "AML17D",
+          "AML18D",
+          "AML19D",
+          "AML20D",
+          "AML43363",
+          "AMLN23_P01",
+          "AMLN23_P06",
+          "AMLN23_P07",
+          "AMLN23_P02",
+          "AMLN23_P08",
+          "AMLN23_P09",
+          "AMLN23_P10",
+          "AMLN23_P11",
+          "AMLN23_P12",
+          "AMLN23_P13",
+          "AMLN23_P15",
+          "AMLN23_P17",
+          "AMLN23_P18",
+          "AMLL001",
+          "AMLL0024",
+          "AMLL0048",
+          "AMLL0102",
+          "AMLL0005",
+          "AMLL0055",
+          "AMLL048",
+          "AMLL0012",
+          "AMLL026",
+          "AMLL051",
+          "AMLL0038",
+          "AMLL0043",
+          "AMLL0008",
+          "AMLL0056",
+          "AMLL0028",
+          "AMLL3762",
+          "AMLL0612",
+          "AMLL0160",
+          "AMLL0310",
+          "AMLL3133",
+          "AMLL0693",
+          "AMLL0073",
+          "AMLL0006",
+          "AMLL0003",
+          "AMLL0025",
+          "AMLL1371",
+          "AMLL4340",
+          "AMLL2123",
+          "AMLL2451",
+          "BMCTRL0004",
+          "AMLL3266",
+          "AMLL3730",
+          "AMLL3948",
+          "AMLL4897",
+          "BMCTRL0005",
+          "AMLL009",
+          "BMCTRL0058",
+          "AMLPAXMIJ",
+          "AMLPAUMTZ",
+          "AMLL0022",
+          "BMCTRL0082",
+          "AMLL0052",
+          "BMCTRL5",
+          "AMLL2910",
+          "AMLL3050",
+          "AMLL0361",
+          "AMLPAWWEE",
+          "BM6161",
+          "BM6162",
+          "BM613_BM6165",
+          "BM6164",
+          "BM6166",
+          "BM6167",
+          "BM6168",
+          "BM6169",
+          "BM6170",
+          "BM6171",
+          "BM6172",
+          "BM6173",
+          "BM6174",
+          "BM6175",
+          "BM6176",
+          "BM6177",
+          "BM6178",
+          "BM6179_BM6181",
+          "BM6180_BM6182",
+          "BM6183",
+          "BM6184",
+          "BM6185",
+          "BM1",
+          "BM2",
+          "BM3",
+          "BM4",
+          "BM5",
+          "HS_BM_2",
+          "HS_BM_1",
+          "HS_BM_3",
+          "BMA00",
+          "HCA2",
+          "HCA7",
+          "HCA3",
+          "HCA1",
+          "HCA4",
+          "HCA6",
+          "HCA5",
+          "HCA8",
+          "N004",
+          "PBMMC1",
+          "PBMMC2",
+          "PBMMC3"
+        ],
+        "embeddings": [
+          "X_pca",
+          "X_scVI_umap",
+          "X_uncorrected_umap"
+        ],
+        "explorer_url": "https://cellxgene.cziscience.com/e/4568ebb2-468c-4381-9ce7-81cd97abcd22.cxg/",
+        "feature_biotype": [
+          "gene"
+        ],
+        "feature_count": 21588,
+        "feature_reference": [
+          "NCBITaxon:9606"
+        ],
+        "genetic_perturbation_strategy": null,
+        "is_pre_analysis": false,
+        "is_primary_data": [
+          true,
+          false
+        ],
+        "mean_genes_per_cell": 1801.2814597444299,
+        "organism": [
+          {
+            "label": "Homo sapiens",
+            "ontology_term_id": "NCBITaxon:9606"
+          }
+        ],
+        "perturbation_types": null,
+        "primary_cell_count": 734762,
+        "published_at": "2026-01-28T22:48:07+00:00",
+        "raw_data_location": "raw.X",
+        "revised_at": "2026-10-13T15:37:43+00:00",
+        "schema_version": "7.1.0",
+        "self_reported_ethnicity": [
+          {
+            "label": "unknown",
+            "ontology_term_id": "unknown"
+          }
+        ],
+        "sex": [
+          {
+            "label": "female",
+            "ontology_term_id": "PATO:0000383"
+          },
+          {
+            "label": "male",
+            "ontology_term_id": "PATO:0000384"
+          },
+          {
+            "label": "unknown",
+            "ontology_term_id": "unknown"
+          }
+        ],
+        "spatial": null,
+        "suspension_type": [
+          "cell"
+        ],
+        "tissue": [
+          {
+            "label": "bone marrow",
+            "ontology_term_id": "UBERON:0002371",
+            "tissue_type": "tissue"
+          }
+        ],
+        "title": "All Cells",
+        "tombstone": false,
+        "x_approximate_distribution": null
+      }
+    ],
+    "description": "Large scale integration of published scRNA-seq datasets created a unique single-cell transcriptomic atlas for AML (AML scAtlas), totalling 748,679 cells, from 159 AML patients and 51 healthy donors from 20 different studies. This is the largest single-cell data resource for AML to our knowledge, allowing AML subtype-specific investigations.",
+    "doi": "10.7554/eLife.104978.2",
+    "is_pre_analysis": false,
+    "links": [
+      {
+        "link_name": "Github",
+        "link_type": "LAB_WEBSITE",
+        "link_url": "https://github.com/jesswhitts/AML-scAtlas"
+      }
+    ],
+    "name": "Single-Cell Atlas of Acute Myeloid Leukemia (AML scAtlas)",
+    "published_at": "2026-01-28T22:48:07+00:00",
+    "publisher_metadata": {
+      "authors": [
+        {
+          "family": "Whittle",
+          "given": "Jessica"
+        },
+        {
+          "family": "Meyer",
+          "given": "Stefan"
+        },
+        {
+          "family": "Lacaud",
+          "given": "Georges"
+        },
+        {
+          "family": "Baker",
+          "given": "Syed Murtuza"
+        },
+        {
+          "family": "Iqbal",
+          "given": "Mudassar"
+        }
+      ],
+      "is_preprint": true,
+      "journal": "eLife",
+      "published_at": 1762905600.0,
+      "published_day": 12,
+      "published_month": 11,
+      "published_year": 2025
+    },
+    "revised_at": "2026-10-13T15:37:43+00:00",
+    "revising_in": null,
+    "revision_of": null,
+    "visibility": "PUBLIC"
+  },
+  "cellxgene_f6c50495": {
+    "collection_id": "f6c50495-3361-40ed-a819-fb9644396ed9",
+    "collection_url": "https://cellxgene.cziscience.com/collections/f6c50495-3361-40ed-a819-fb9644396ed9",
+    "collection_version_id": "a1f7db53-b649-4f4d-a4c5-ca506255dcb0",
+    "consortia": [],
+    "contact_email": "andy.zeng@mail.utoronto.ca",
+    "contact_name": "Andy Zeng",
+    "created_at": "2026-10-13T02:52:48+00:00",
+    "curator_name": "Jason Hilton",
+    "datasets": [
+      {
+        "assay": [
+          {
+            "label": "10x 3' v2",
+            "ontology_term_id": "EFO:0009899"
+          },
+          {
+            "label": "10x 3' v3",
+            "ontology_term_id": "EFO:0009922"
+          }
+        ],
+        "assets": [
+          {
+            "filesize": 2829047593,
+            "filetype": "H5AD",
+            "url": "https://datasets.cellxgene.cziscience.com/2cf4ad28-177f-4326-ab49-c4cb012c295d.h5ad"
+          }
+        ],
+        "cell_count": 263159,
+        "cell_type": [
+          {
+            "label": "CD14-positive monocyte",
+            "ontology_term_id": "CL:0001054"
+          },
+          {
+            "label": "CD14-positive, CD16-positive monocyte",
+            "ontology_term_id": "CL:0002397"
+          },
+          {
+            "label": "CD16-negative, CD56-bright natural killer cell, human",
+            "ontology_term_id": "CL:0000938"
+          },
+          {
+            "label": "CD4-positive, CD25-positive, alpha-beta regulatory T cell",
+            "ontology_term_id": "CL:0000792"
+          },
+          {
+            "label": "CD8-positive, alpha-beta memory T cell",
+            "ontology_term_id": "CL:0000909"
+          },
+          {
+            "label": "T cell",
+            "ontology_term_id": "CL:0000084"
+          },
+          {
+            "label": "basophil mast progenitor cell",
+            "ontology_term_id": "CL:0002028"
+          },
+          {
+            "label": "basophilic erythroblast",
+            "ontology_term_id": "CL:0000549"
+          },
+          {
+            "label": "central memory CD4-positive, alpha-beta T cell",
+            "ontology_term_id": "CL:0000904"
+          },
+          {
+            "label": "central memory CD8-positive, alpha-beta T cell",
+            "ontology_term_id": "CL:0000907"
+          },
+          {
+            "label": "common lymphoid progenitor",
+            "ontology_term_id": "CL:0000051"
+          },
+          {
+            "label": "common myeloid progenitor",
+            "ontology_term_id": "CL:0000049"
+          },
+          {
+            "label": "conventional dendritic cell",
+            "ontology_term_id": "CL:0000990"
+          },
+          {
+            "label": "dendritic cell",
+            "ontology_term_id": "CL:0000451"
+          },
+          {
+            "label": "effector memory CD4-positive, alpha-beta T cell",
+            "ontology_term_id": "CL:0000905"
+          },
+          {
+            "label": "effector memory CD8-positive, alpha-beta T cell",
+            "ontology_term_id": "CL:0000913"
+          },
+          {
+            "label": "erythroid progenitor cell",
+            "ontology_term_id": "CL:0000038"
+          },
+          {
+            "label": "granulocyte monocyte progenitor cell",
+            "ontology_term_id": "CL:0000557"
+          },
+          {
+            "label": "hematopoietic multipotent progenitor cell",
+            "ontology_term_id": "CL:0000837"
+          },
+          {
+            "label": "hematopoietic oligopotent progenitor cell",
+            "ontology_term_id": "CL:0002032"
+          },
+          {
+            "label": "hematopoietic stem cell",
+            "ontology_term_id": "CL:0000037"
+          },
+          {
+            "label": "immature B cell",
+            "ontology_term_id": "CL:0000816"
+          },
+          {
+            "label": "large pre-B-II cell",
+            "ontology_term_id": "CL:0000957"
+          },
+          {
+            "label": "late pro-B cell",
+            "ontology_term_id": "CL:0002048"
+          },
+          {
+            "label": "mature B cell",
+            "ontology_term_id": "CL:0000785"
+          },
+          {
+            "label": "megakaryocyte",
+            "ontology_term_id": "CL:0000556"
+          },
+          {
+            "label": "megakaryocyte progenitor cell",
+            "ontology_term_id": "CL:0000553"
+          },
+          {
+            "label": "megakaryocyte-erythroid progenitor cell",
+            "ontology_term_id": "CL:0000050"
+          },
+          {
+            "label": "naive thymus-derived CD4-positive, alpha-beta T cell",
+            "ontology_term_id": "CL:0000895"
+          },
+          {
+            "label": "naive thymus-derived CD8-positive, alpha-beta T cell",
+            "ontology_term_id": "CL:0000900"
+          },
+          {
+            "label": "natural killer cell",
+            "ontology_term_id": "CL:0000623"
+          },
+          {
+            "label": "orthochromatic erythroblast",
+            "ontology_term_id": "CL:0000552"
+          },
+          {
+            "label": "plasma cell",
+            "ontology_term_id": "CL:0000786"
+          },
+          {
+            "label": "plasmacytoid dendritic cell, human",
+            "ontology_term_id": "CL:0001058"
+          },
+          {
+            "label": "polychromatophilic erythroblast",
+            "ontology_term_id": "CL:0000550"
+          },
+          {
+            "label": "pre-conventional dendritic cell",
+            "ontology_term_id": "CL:0002010"
+          },
+          {
+            "label": "pro-B cell",
+            "ontology_term_id": "CL:0000826"
+          },
+          {
+            "label": "promonocyte",
+            "ontology_term_id": "CL:0000559"
+          },
+          {
+            "label": "small pre-B-II cell",
+            "ontology_term_id": "CL:0000954"
+          },
+          {
+            "label": "stromal cell of bone marrow",
+            "ontology_term_id": "CL:0010001"
+          }
+        ],
+        "citation": "Publication: https://doi.org/10.1158/2643-3230.BCD-24-0342 Dataset Version: https://datasets.cellxgene.cziscience.com/2cf4ad28-177f-4326-ab49-c4cb012c295d.h5ad curated and distributed by CZ CELLxGENE Discover in Collection: https://cellxgene.cziscience.com/collections/f6c50495-3361-40ed-a819-fb9644396ed9",
+        "dataset_id": "cd2f23c1-aef1-48ae-8eb4-0bcf124e567d",
+        "dataset_version_id": "2cf4ad28-177f-4326-ab49-c4cb012c295d",
+        "development_stage": [
+          {
+            "label": "19-year-old stage",
+            "ontology_term_id": "HsapDv:0000113"
+          },
+          {
+            "label": "24-year-old stage",
+            "ontology_term_id": "HsapDv:0000118"
+          },
+          {
+            "label": "26-year-old stage",
+            "ontology_term_id": "HsapDv:0000120"
+          },
+          {
+            "label": "28-year-old stage",
+            "ontology_term_id": "HsapDv:0000122"
+          },
+          {
+            "label": "29-year-old stage",
+            "ontology_term_id": "HsapDv:0000123"
+          },
+          {
+            "label": "30-year-old stage",
+            "ontology_term_id": "HsapDv:0000124"
+          },
+          {
+            "label": "31-year-old stage",
+            "ontology_term_id": "HsapDv:0000125"
+          },
+          {
+            "label": "32-year-old stage",
+            "ontology_term_id": "HsapDv:0000126"
+          },
+          {
+            "label": "35-year-old stage",
+            "ontology_term_id": "HsapDv:0000129"
+          },
+          {
+            "label": "36-year-old stage",
+            "ontology_term_id": "HsapDv:0000130"
+          },
+          {
+            "label": "39-year-old stage",
+            "ontology_term_id": "HsapDv:0000133"
+          },
+          {
+            "label": "41-year-old stage",
+            "ontology_term_id": "HsapDv:0000135"
+          },
+          {
+            "label": "43-year-old stage",
+            "ontology_term_id": "HsapDv:0000137"
+          },
+          {
+            "label": "46-year-old stage",
+            "ontology_term_id": "HsapDv:0000140"
+          },
+          {
+            "label": "47-year-old stage",
+            "ontology_term_id": "HsapDv:0000141"
+          },
+          {
+            "label": "50-year-old stage",
+            "ontology_term_id": "HsapDv:0000144"
+          },
+          {
+            "label": "52-year-old stage",
+            "ontology_term_id": "HsapDv:0000146"
+          },
+          {
+            "label": "55-year-old stage",
+            "ontology_term_id": "HsapDv:0000149"
+          },
+          {
+            "label": "56-year-old stage",
+            "ontology_term_id": "HsapDv:0000150"
+          },
+          {
+            "label": "57-year-old stage",
+            "ontology_term_id": "HsapDv:0000151"
+          },
+          {
+            "label": "58-year-old stage",
+            "ontology_term_id": "HsapDv:0000152"
+          },
+          {
+            "label": "59-year-old stage",
+            "ontology_term_id": "HsapDv:0000153"
+          },
+          {
+            "label": "60-year-old stage",
+            "ontology_term_id": "HsapDv:0000154"
+          },
+          {
+            "label": "66-year-old stage",
+            "ontology_term_id": "HsapDv:0000160"
+          },
+          {
+            "label": "67-year-old stage",
+            "ontology_term_id": "HsapDv:0000161"
+          },
+          {
+            "label": "84-year-old stage",
+            "ontology_term_id": "HsapDv:0000210"
+          },
+          {
+            "label": "late adult stage",
+            "ontology_term_id": "HsapDv:0000227"
+          },
+          {
+            "label": "prime adult stage",
+            "ontology_term_id": "HsapDv:0000226"
+          },
+          {
+            "label": "young adult stage",
+            "ontology_term_id": "HsapDv:0000266"
+          }
+        ],
+        "disease": [
+          {
+            "label": "normal",
+            "ontology_term_id": "PATO:0000461"
+          }
+        ],
+        "donor_id": [
+          "HCA_BM_BM2",
+          "HCA_BM_BM4",
+          "HCA_BM_BM8",
+          "HCA_BM_BM1",
+          "HCA_BM_BM6",
+          "HCA_BM_BM7",
+          "HCA_BM_BM5",
+          "HCA_BM_BM3",
+          "Mende2022_BM_DOD1",
+          "Mende2022_BM_DOD2",
+          "Granja2019_CD34_D2T1",
+          "Granja2019_CD34_D3T1",
+          "Granja2019_BMMC_D1T1",
+          "Granja2019_BMMC_D1T2",
+          "Setty2019_BM2",
+          "Setty2019_BM3",
+          "Setty2019_BM1",
+          "Ainciburu2022_young1",
+          "Ainciburu2022_young2",
+          "Ainciburu2022_young3",
+          "Ainciburu2022_young4",
+          "Ainciburu2022_elderly1",
+          "Ainciburu2022_elderly2",
+          "Oetjen2018_A",
+          "Oetjen2018_B",
+          "Oetjen2018_C",
+          "Oetjen2018_Ck",
+          "Oetjen2018_E",
+          "Oetjen2018_F",
+          "Oetjen2018_G",
+          "Oetjen2018_H",
+          "Oetjen2018_J",
+          "Oetjen2018_K",
+          "Oetjen2018_L",
+          "Oetjen2018_M",
+          "Oetjen2018_N",
+          "Oetjen2018_O",
+          "Oetjen2018_P",
+          "Oetjen2018_Q",
+          "Oetjen2018_R",
+          "Oetjen2018_S",
+          "Oetjen2018_Sk",
+          "Oetjen2018_T",
+          "Oetjen2018_U",
+          "Oetjen2018_W"
+        ],
+        "embeddings": [
+          "X_harmony",
+          "X_pca",
+          "X_umap"
+        ],
+        "explorer_url": "https://cellxgene.cziscience.com/e/cd2f23c1-aef1-48ae-8eb4-0bcf124e567d.cxg/",
+        "feature_biotype": [
+          "gene"
+        ],
+        "feature_count": 27571,
+        "feature_reference": [
+          "NCBITaxon:9606"
+        ],
+        "genetic_perturbation_strategy": null,
+        "is_pre_analysis": false,
+        "is_primary_data": [
+          true,
+          false
+        ],
+        "mean_genes_per_cell": 1599.6716167792094,
+        "organism": [
+          {
+            "label": "Homo sapiens",
+            "ontology_term_id": "NCBITaxon:9606"
+          }
+        ],
+        "perturbation_types": null,
+        "primary_cell_count": 176291,
+        "published_at": "2024-06-26T15:10:40+00:00",
+        "raw_data_location": "raw.X",
+        "revised_at": "2026-10-13T15:37:48+00:00",
+        "schema_version": "7.1.0",
+        "self_reported_ethnicity": [
+          {
+            "label": "unknown",
+            "ontology_term_id": "unknown"
+          }
+        ],
+        "sex": [
+          {
+            "label": "female",
+            "ontology_term_id": "PATO:0000383"
+          },
+          {
+            "label": "male",
+            "ontology_term_id": "PATO:0000384"
+          }
+        ],
+        "spatial": null,
+        "suspension_type": [
+          "cell"
+        ],
+        "tissue": [
+          {
+            "label": "bone marrow",
+            "ontology_term_id": "UBERON:0002371",
+            "tissue_type": "tissue"
+          }
+        ],
+        "title": "A (Balanced) Bone Marrow Reference Map of Hematopoietic Development",
+        "tombstone": false,
+        "x_approximate_distribution": null
+      }
+    ],
+    "description": "A balanced bone marrow hematopoietic reference map to allow for efficient and precise cell type classification in single-cell datasets.",
+    "doi": "10.1158/2643-3230.BCD-24-0342",
+    "is_pre_analysis": false,
+    "links": [
+      {
+        "link_name": "",
+        "link_type": "OTHER",
+        "link_url": "https://github.com/andygxzeng/BoneMarrowMap"
+      }
+    ],
+    "name": "A Balanced Bone Marrow Reference Map of Hematopoietic Development",
+    "published_at": "2024-06-26T15:10:40+00:00",
+    "publisher_metadata": {
+      "authors": [
+        {
+          "family": "Zeng",
+          "given": "Andy G.X."
+        },
+        {
+          "family": "Iacobucci",
+          "given": "Ilaria"
+        },
+        {
+          "family": "Shah",
+          "given": "Sayyam"
+        },
+        {
+          "family": "Mitchell",
+          "given": "Amanda"
+        },
+        {
+          "family": "Wong",
+          "given": "Gordon"
+        },
+        {
+          "family": "Bansal",
+          "given": "Suraj"
+        },
+        {
+          "family": "Chen",
+          "given": "David"
+        },
+        {
+          "family": "Gao",
+          "given": "Qingsong"
+        },
+        {
+          "family": "Kim",
+          "given": "Hyerin"
+        },
+        {
+          "family": "Kennedy",
+          "given": "James A."
+        },
+        {
+          "family": "Arruda",
+          "given": "Andrea"
+        },
+        {
+          "family": "Minden",
+          "given": "Mark D."
+        },
+        {
+          "family": "Haferlach",
+          "given": "Torsten"
+        },
+        {
+          "family": "Mullighan",
+          "given": "Charles G."
+        },
+        {
+          "family": "Dick",
+          "given": "John E."
+        }
+      ],
+      "is_preprint": false,
+      "journal": "Blood Cancer Discovery",
+      "published_at": 1751328000.0,
+      "published_day": 1,
+      "published_month": 7,
+      "published_year": 2025
+    },
+    "revised_at": "2026-10-13T15:37:48+00:00",
+    "revising_in": null,
+    "revision_of": null,
+    "visibility": "PUBLIC"
+  },
+  "geo_search": {
+    "header": {
+      "type": "esearch",
+      "version": "0.3"
+    },
+    "esearchresult": {
+      "count": "14",
+      "retmax": "14",
+      "retstart": "0",
+      "idlist": [
+        "200318789",
+        "100034281",
+        "309503315",
+        "309503314",
+        "309503313",
+        "309503312",
+        "309503311",
+        "309503310",
+        "309503309",
+        "309503308",
+        "309503307",
+        "309503306",
+        "309503305",
+        "309503304"
+      ],
+      "translationset": [],
+      "translationstack": [
+        {
+          "term": "GSE318789[ACCN]",
+          "field": "ACCN",
+          "count": "14",
+          "explode": "N"
+        },
+        "GROUP"
+      ],
+      "querytranslation": "GSE318789[ACCN]"
+    }
+  },
+  "geo_summary": {
+    "header": {
+      "type": "esummary",
+      "version": "0.3"
+    },
+    "result": {
+      "uids": [
+        "200318789"
+      ],
+      "200318789": {
+        "uid": "200318789",
+        "accession": "GSE318789",
+        "gds": "",
+        "title": "Identification of long non-coding RNAs involved in leukemogenesis and venetoclax response in acute myeloid leukemia through functional CRISPR-dCas9 interference screens",
+        "summary": "Acute myeloid leukemia (AML) is a malignant hematologic disease with poor prognosis, and improved understanding of its biology is critical for patient outcomes. While protein-coding genes in AML are well characterized, the role of long non-coding RNAs (lncRNAs) remains largely unexplored. Here, we investigated how lncRNAs contribute to AML biology and treatment resistance. Three high-throughput lncRNA-CRISPR-interference (CRISPRi) screens were performed in the AML cell line MOLM-13, targeting 7,996 lncRNAs expressed in hematopoietic cells, with knockdowns directed to transcription start sites defined through cap analysis of gene expression (CAGE) sequencing. Effects on proliferation, differentiation, and response to the Bcl-2 inhibitor venetoclax were assessed. In total, 58, 4, and 23 lncRNAs were found to affect proliferation, differentiation, and venetoclax sensitivity, respectively. Three proliferation-associated lncRNAs (MIR17HG, CATG00000106133.1, and CATG00000056792.1) and one venetoclax-associated lncRNA (AC009299.3) were further investigated. CATG00000106133.1 was enriched in de novo and cytogenetically normal AML and correlated with NPM1 and IDH2 mutations. Gene Ontology and Reactome analyses of RNA-seq from CATG00000106133.1 knockout cells revealed roles in cytokine signaling and immune pathways. AC009299.3, linked to venetoclax response, was associated with poor outcome, adverse risk, and increased age in AML patients. Collectively, this study identifies four lncRNAs implicated in key leukemogenic processes, highlighting their potential for understanding AML biology, prognosis, and therapeutic response.",
+        "gpl": "34281",
+        "gse": "318789",
+        "taxon": "Homo sapiens",
+        "entrytype": "GSE",
+        "gdstype": "Other",
+        "ptechtype": "",
+        "valtype": "",
+        "ssinfo": "",
+        "subsetinfo": "",
+        "pdat": "2026/07/08",
+        "suppfile": "TXT",
+        "samples": [
+          {
+            "accession": "GSM9503306",
+            "title": "DMSO control for Venetoclax, sorted for dCas9-KRAB-BFP, Replicate 2"
+          },
+          {
+            "accession": "GSM9503312",
+            "title": "Proliferation Early time point, Replicate 1"
+          },
+          {
+            "accession": "GSM9503315",
+            "title": "Proliferation Late time point, Replicate 2"
+          },
+          {
+            "accession": "GSM9503309",
+            "title": "ATRA, sorted for CD11b, Replicate 1"
+          },
+          {
+            "accession": "GSM9503311",
+            "title": "ATRA, sorted for CD11b, Replicate 2"
+          },
+          {
+            "accession": "GSM9503305",
+            "title": "Venetoclax, sorted for dCas9-KRAB-BFP, Replicate 1"
+          },
+          {
+            "accession": "GSM9503308",
+            "title": "DMSO control for ATRA, sorted for CD11b, Replicate 1"
+          },
+          {
+            "accession": "GSM9503314",
+            "title": "Proliferation Early time point, Replicate 2"
+          },
+          {
+            "accession": "GSM9503310",
+            "title": "DMSO control for ATRA, sorted for CD11b, Replicate 2"
+          },
+          {
+            "accession": "GSM9503313",
+            "title": "Proliferation Late time point, Replicate 1"
+          },
+          {
+            "accession": "GSM9503304",
+            "title": "DMSO control for Venetoclax, sorted for dCas9-KRAB-BFP, Replicate 1"
+          },
+          {
+            "accession": "GSM9503307",
+            "title": "Venetoclax, sorted for dCas9-KRAB-BFP, Replicate 2"
+          }
+        ],
+        "relations": [],
+        "extrelations": [],
+        "n_samples": 12,
+        "seriestitle": "",
+        "platformtitle": "",
+        "platformtaxa": "",
+        "samplestaxa": "",
+        "pubmedids": [
+          "42388349"
+        ],
+        "projects": [],
+        "ftplink": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE318nnn/GSE318789/",
+        "geo2r": "no",
+        "bioproject": "PRJNA1420621"
+      }
+    }
+  },
+  "pmc_summary": {
+    "header": {
+      "type": "esummary",
+      "version": "0.3"
+    },
+    "result": {
+      "uids": [
+        "13318546"
+      ],
+      "13318546": {
+        "uid": "13318546",
+        "pubdate": "2026 Oct",
+        "epubdate": "2026 Jun 26",
+        "printpubdate": "",
+        "source": "Noncoding RNA Res",
+        "authors": [
+          {
+            "name": "Cozzi E",
+            "authtype": "Author"
+          },
+          {
+            "name": "Neddermeyer A",
+            "authtype": "Author"
+          },
+          {
+            "name": "Miliara S",
+            "authtype": "Author"
+          },
+          {
+            "name": "Zhong X",
+            "authtype": "Author"
+          },
+          {
+            "name": "Weirick T",
+            "authtype": "Author"
+          },
+          {
+            "name": "Struyf N",
+            "authtype": "Author"
+          },
+          {
+            "name": "Erkers T",
+            "authtype": "Author"
+          },
+          {
+            "name": "Hon CC",
+            "authtype": "Author"
+          },
+          {
+            "name": "Lennartsson A",
+            "authtype": "Author"
+          },
+          {
+            "name": "Lehmann S",
+            "authtype": "Author"
+          }
+        ],
+        "title": "Identification of long non-coding RNAs involved in leukemogenesis and venetoclax response in acute myeloid leukemia through functional CRISPR-dCas9 interference screens.",
+        "volume": "20",
+        "issue": "",
+        "pages": "29-43",
+        "articleids": [
+          {
+            "idtype": "pmid",
+            "value": "42388349"
+          },
+          {
+            "idtype": "pmcid",
+            "value": "PMC13318546"
+          },
+          {
+            "idtype": "doi",
+            "value": "10.1016/j.ncrna.2026.05.002"
+          },
+          {
+            "idtype": "pii",
+            "value": "S2468-0540(26)00043-0"
+          }
+        ],
+        "fulljournalname": "Non-coding RNA research",
+        "sortdate": "2026/06/26 00:00",
+        "pmclivedate": "2026/07/02"
+      }
+    }
+  }
+}

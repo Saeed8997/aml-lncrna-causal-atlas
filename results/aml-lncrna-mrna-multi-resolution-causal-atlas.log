@@ -1,0 +1,184 @@
+[{"stream_name":"stdout","time":0.820376714,"data":"[Kaggle Setup] Installing required high-performance causal and single-cell libraries...\n"}
+,{"stream_name":"stdout","time":6.066024203,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 245.9/245.9 kB 4.2 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":6.11079749,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 190.2/190.2 kB 7.2 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":6.191309983,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.2/2.2 MB 40.0 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":6.224088779,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 79.1/79.1 kB 4.6 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":6.259280044,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 40.6/40.6 kB 1.7 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":6.350274857,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 405.3/405.3 kB 21.3 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":6.479384458,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 230.5/230.5 kB 14.8 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":6.528430697,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 49.8 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":6.563811562,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 80.4/80.4 kB 4.0 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":24.304873282,"data":"[2026-10-15 10:24:14] [INFO] [kaggle_pipeline] === Starting AML lncRNA Multi-Resolution Causal Atlas Pipeline ===\n"}
+,{"stream_name":"stdout","time":29.262378851,"data":"[2026-10-15 10:24:19] [INFO] [data_loading] Atlas not found at /tmp/aml_scatlas_748k.h5ad. Beginning stream from https://datasets.cellxgene.cziscience.com/be1f3ced-6b8f-47b0-a3e2-7edc8d466abd.h5ad...\n"}
+,{"stream_name":"stdout","time":29.262643817,"data":"[2026-10-15 10:24:19] [INFO] [aml_causal_atlas] Streaming from https://datasets.cellxgene.cziscience.com/be1f3ced-6b8f-47b0-a3e2-7edc8d466abd.h5ad -\u003e /tmp/aml_scatlas_748k.h5ad (Existing: 0 bytes)...\n"}
+,{"stream_name":"stdout","time":29.658671715,"data":"[2026-10-15 10:24:19] [INFO] [aml_causal_atlas] Progress: 0.06 GB / 5.96 GB (1.0%)\n"}
+,{"stream_name":"stdout","time":29.844323349,"data":"[2026-10-15 10:24:19] [INFO] [aml_causal_atlas] Progress: 0.12 GB / 5.96 GB (2.1%)\n"}
+,{"stream_name":"stdout","time":30.031512128,"data":"[2026-10-15 10:24:19] [INFO] [aml_causal_atlas] Progress: 0.19 GB / 5.96 GB (3.1%)\n"}
+,{"stream_name":"stdout","time":30.220341633,"data":"[2026-10-15 10:24:20] [INFO] [aml_causal_atlas] Progress: 0.25 GB / 5.96 GB (4.2%)\n"}
+,{"stream_name":"stdout","time":30.408248814,"data":"[2026-10-15 10:24:20] [INFO] [aml_causal_atlas] Progress: 0.31 GB / 5.96 GB (5.2%)\n"}
+,{"stream_name":"stdout","time":30.591228259,"data":"[2026-10-15 10:24:20] [INFO] [aml_causal_atlas] Progress: 0.38 GB / 5.96 GB (6.3%)\n"}
+,{"stream_name":"stdout","time":30.778541285,"data":"[2026-10-15 10:24:20] [INFO] [aml_causal_atlas] Progress: 0.44 GB / 5.96 GB (7.3%)\n"}
+,{"stream_name":"stdout","time":30.964021195,"data":"[2026-10-15 10:24:20] [INFO] [aml_causal_atlas] Progress: 0.50 GB / 5.96 GB (8.4%)\n"}
+,{"stream_name":"stdout","time":31.153094122,"data":"[2026-10-15 10:24:20] [INFO] [aml_causal_atlas] Progress: 0.56 GB / 5.96 GB (9.4%)\n"}
+,{"stream_name":"stdout","time":31.346124645,"data":"[2026-10-15 10:24:21] [INFO] [aml_causal_atlas] Progress: 0.62 GB / 5.96 GB (10.5%)\n"}
+,{"stream_name":"stdout","time":31.523783892,"data":"[2026-10-15 10:24:21] [INFO] [aml_causal_atlas] Progress: 0.69 GB / 5.96 GB (11.5%)\n"}
+,{"stream_name":"stdout","time":31.712517595,"data":"[2026-10-15 10:24:21] [INFO] [aml_causal_atlas] Progress: 0.75 GB / 5.96 GB (12.6%)\n"}
+,{"stream_name":"stdout","time":31.905032432,"data":"[2026-10-15 10:24:21] [INFO] [aml_causal_atlas] Progress: 0.81 GB / 5.96 GB (13.6%)\n"}
+,{"stream_name":"stdout","time":32.090899418,"data":"[2026-10-15 10:24:21] [INFO] [aml_causal_atlas] Progress: 0.88 GB / 5.96 GB (14.7%)\n"}
+,{"stream_name":"stdout","time":32.647285319,"data":"[2026-10-15 10:24:22] [INFO] [aml_causal_atlas] Progress: 0.94 GB / 5.96 GB (15.7%)\n"}
+,{"stream_name":"stdout","time":32.837338365,"data":"[2026-10-15 10:24:22] [INFO] [aml_causal_atlas] Progress: 1.00 GB / 5.96 GB (16.8%)\n"}
+,{"stream_name":"stdout","time":33.023063857,"data":"[2026-10-15 10:24:22] [INFO] [aml_causal_atlas] Progress: 1.06 GB / 5.96 GB (17.8%)\n"}
+,{"stream_name":"stdout","time":33.207903692,"data":"[2026-10-15 10:24:23] [INFO] [aml_causal_atlas] Progress: 1.12 GB / 5.96 GB (18.9%)\n"}
+,{"stream_name":"stdout","time":33.397384331,"data":"[2026-10-15 10:24:23] [INFO] [aml_causal_atlas] Progress: 1.19 GB / 5.96 GB (19.9%)\n"}
+,{"stream_name":"stdout","time":33.583005313,"data":"[2026-10-15 10:24:23] [INFO] [aml_causal_atlas] Progress: 1.25 GB / 5.96 GB (21.0%)\n"}
+,{"stream_name":"stdout","time":33.770148779,"data":"[2026-10-15 10:24:23] [INFO] [aml_causal_atlas] Progress: 1.31 GB / 5.96 GB (22.0%)\n"}
+,{"stream_name":"stdout","time":33.957326699,"data":"[2026-10-15 10:24:23] [INFO] [aml_causal_atlas] Progress: 1.38 GB / 5.96 GB (23.1%)\n"}
+,{"stream_name":"stdout","time":34.144174595,"data":"[2026-10-15 10:24:23] [INFO] [aml_causal_atlas] Progress: 1.44 GB / 5.96 GB (24.1%)\n"}
+,{"stream_name":"stdout","time":34.353148963,"data":"[2026-10-15 10:24:24] [INFO] [aml_causal_atlas] Progress: 1.50 GB / 5.96 GB (25.2%)\n"}
+,{"stream_name":"stdout","time":34.540919199,"data":"[2026-10-15 10:24:24] [INFO] [aml_causal_atlas] Progress: 1.56 GB / 5.96 GB (26.2%)\n"}
+,{"stream_name":"stdout","time":34.72559494,"data":"[2026-10-15 10:24:24] [INFO] [aml_causal_atlas] Progress: 1.62 GB / 5.96 GB (27.3%)\n"}
+,{"stream_name":"stdout","time":34.910992069,"data":"[2026-10-15 10:24:24] [INFO] [aml_causal_atlas] Progress: 1.69 GB / 5.96 GB (28.3%)\n"}
+,{"stream_name":"stdout","time":35.099111382,"data":"[2026-10-15 10:24:24] [INFO] [aml_causal_atlas] Progress: 1.75 GB / 5.96 GB (29.4%)\n"}
+,{"stream_name":"stdout","time":35.283926909,"data":"[2026-10-15 10:24:25] [INFO] [aml_causal_atlas] Progress: 1.81 GB / 5.96 GB (30.4%)\n"}
+,{"stream_name":"stdout","time":35.470659361,"data":"[2026-10-15 10:24:25] [INFO] [aml_causal_atlas] Progress: 1.88 GB / 5.96 GB (31.5%)\n"}
+,{"stream_name":"stdout","time":35.655707717,"data":"[2026-10-15 10:24:25] [INFO] [aml_causal_atlas] Progress: 1.94 GB / 5.96 GB (32.5%)\n"}
+,{"stream_name":"stdout","time":35.840885282,"data":"[2026-10-15 10:24:25] [INFO] [aml_causal_atlas] Progress: 2.00 GB / 5.96 GB (33.6%)\n"}
+,{"stream_name":"stdout","time":36.032522098,"data":"[2026-10-15 10:24:25] [INFO] [aml_causal_atlas] Progress: 2.06 GB / 5.96 GB (34.6%)\n"}
+,{"stream_name":"stdout","time":36.21325153,"data":"[2026-10-15 10:24:26] [INFO] [aml_causal_atlas] Progress: 2.12 GB / 5.96 GB (35.7%)\n"}
+,{"stream_name":"stdout","time":36.399847753,"data":"[2026-10-15 10:24:26] [INFO] [aml_causal_atlas] Progress: 2.19 GB / 5.96 GB (36.7%)\n"}
+,{"stream_name":"stdout","time":36.584568154,"data":"[2026-10-15 10:24:26] [INFO] [aml_causal_atlas] Progress: 2.25 GB / 5.96 GB (37.8%)\n"}
+,{"stream_name":"stdout","time":36.770672286,"data":"[2026-10-15 10:24:26] [INFO] [aml_causal_atlas] Progress: 2.31 GB / 5.96 GB (38.8%)\n"}
+,{"stream_name":"stdout","time":36.956331378,"data":"[2026-10-15 10:24:26] [INFO] [aml_causal_atlas] Progress: 2.38 GB / 5.96 GB (39.9%)\n"}
+,{"stream_name":"stdout","time":37.146750731,"data":"[2026-10-15 10:24:26] [INFO] [aml_causal_atlas] Progress: 2.44 GB / 5.96 GB (40.9%)\n"}
+,{"stream_name":"stdout","time":39.210865829,"data":"[2026-10-15 10:24:29] [INFO] [aml_causal_atlas] Progress: 2.50 GB / 5.96 GB (42.0%)\n"}
+,{"stream_name":"stdout","time":39.421836623,"data":"[2026-10-15 10:24:29] [INFO] [aml_causal_atlas] Progress: 2.56 GB / 5.96 GB (43.0%)\n"}
+,{"stream_name":"stdout","time":39.794493252,"data":"[2026-10-15 10:24:29] [INFO] [aml_causal_atlas] Progress: 2.62 GB / 5.96 GB (44.1%)\n"}
+,{"stream_name":"stdout","time":39.996140342,"data":"[2026-10-15 10:24:29] [INFO] [aml_causal_atlas] Progress: 2.69 GB / 5.96 GB (45.1%)\n"}
+,{"stream_name":"stdout","time":40.184660069,"data":"[2026-10-15 10:24:30] [INFO] [aml_causal_atlas] Progress: 2.75 GB / 5.96 GB (46.2%)\n"}
+,{"stream_name":"stdout","time":40.371868737,"data":"[2026-10-15 10:24:30] [INFO] [aml_causal_atlas] Progress: 2.81 GB / 5.96 GB (47.2%)\n"}
+,{"stream_name":"stdout","time":40.555624385,"data":"[2026-10-15 10:24:30] [INFO] [aml_causal_atlas] Progress: 2.88 GB / 5.96 GB (48.2%)\n"}
+,{"stream_name":"stdout","time":40.7466091,"data":"[2026-10-15 10:24:30] [INFO] [aml_causal_atlas] Progress: 2.94 GB / 5.96 GB (49.3%)\n"}
+,{"stream_name":"stdout","time":40.942442858,"data":"[2026-10-15 10:24:30] [INFO] [aml_causal_atlas] Progress: 3.00 GB / 5.96 GB (50.3%)\n"}
+,{"stream_name":"stdout","time":41.126159974,"data":"[2026-10-15 10:24:30] [INFO] [aml_causal_atlas] Progress: 3.06 GB / 5.96 GB (51.4%)\n"}
+,{"stream_name":"stdout","time":41.534818126,"data":"[2026-10-15 10:24:31] [INFO] [aml_causal_atlas] Progress: 3.12 GB / 5.96 GB (52.4%)\n"}
+,{"stream_name":"stdout","time":41.719804364,"data":"[2026-10-15 10:24:31] [INFO] [aml_causal_atlas] Progress: 3.19 GB / 5.96 GB (53.5%)\n"}
+,{"stream_name":"stdout","time":41.909471816,"data":"[2026-10-15 10:24:31] [INFO] [aml_causal_atlas] Progress: 3.25 GB / 5.96 GB (54.5%)\n"}
+,{"stream_name":"stdout","time":42.095577324,"data":"[2026-10-15 10:24:31] [INFO] [aml_causal_atlas] Progress: 3.31 GB / 5.96 GB (55.6%)\n"}
+,{"stream_name":"stdout","time":42.490208256,"data":"[2026-10-15 10:24:32] [INFO] [aml_causal_atlas] Progress: 3.38 GB / 5.96 GB (56.6%)\n"}
+,{"stream_name":"stdout","time":42.713800819,"data":"[2026-10-15 10:24:32] [INFO] [aml_causal_atlas] Progress: 3.44 GB / 5.96 GB (57.7%)\n"}
+,{"stream_name":"stdout","time":42.902238815,"data":"[2026-10-15 10:24:32] [INFO] [aml_causal_atlas] Progress: 3.50 GB / 5.96 GB (58.7%)\n"}
+,{"stream_name":"stdout","time":43.093866778,"data":"[2026-10-15 10:24:32] [INFO] [aml_causal_atlas] Progress: 3.56 GB / 5.96 GB (59.8%)\n"}
+,{"stream_name":"stdout","time":43.278290942,"data":"[2026-10-15 10:24:33] [INFO] [aml_causal_atlas] Progress: 3.62 GB / 5.96 GB (60.8%)\n"}
+,{"stream_name":"stdout","time":43.468547308,"data":"[2026-10-15 10:24:33] [INFO] [aml_causal_atlas] Progress: 3.69 GB / 5.96 GB (61.9%)\n"}
+,{"stream_name":"stdout","time":43.651477484,"data":"[2026-10-15 10:24:33] [INFO] [aml_causal_atlas] Progress: 3.75 GB / 5.96 GB (62.9%)\n"}
+,{"stream_name":"stdout","time":43.836098898,"data":"[2026-10-15 10:24:33] [INFO] [aml_causal_atlas] Progress: 3.81 GB / 5.96 GB (64.0%)\n"}
+,{"stream_name":"stdout","time":44.028805414,"data":"[2026-10-15 10:24:33] [INFO] [aml_causal_atlas] Progress: 3.88 GB / 5.96 GB (65.0%)\n"}
+,{"stream_name":"stdout","time":44.214475953,"data":"[2026-10-15 10:24:34] [INFO] [aml_causal_atlas] Progress: 3.94 GB / 5.96 GB (66.1%)\n"}
+,{"stream_name":"stdout","time":44.401362005,"data":"[2026-10-15 10:24:34] [INFO] [aml_causal_atlas] Progress: 4.00 GB / 5.96 GB (67.1%)\n"}
+,{"stream_name":"stdout","time":44.590282883,"data":"[2026-10-15 10:24:34] [INFO] [aml_causal_atlas] Progress: 4.06 GB / 5.96 GB (68.2%)\n"}
+,{"stream_name":"stdout","time":44.778676759,"data":"[2026-10-15 10:24:34] [INFO] [aml_causal_atlas] Progress: 4.12 GB / 5.96 GB (69.2%)\n"}
+,{"stream_name":"stdout","time":44.966298902,"data":"[2026-10-15 10:24:34] [INFO] [aml_causal_atlas] Progress: 4.19 GB / 5.96 GB (70.3%)\n"}
+,{"stream_name":"stdout","time":45.152638632,"data":"[2026-10-15 10:24:34] [INFO] [aml_causal_atlas] Progress: 4.25 GB / 5.96 GB (71.3%)\n"}
+,{"stream_name":"stdout","time":47.122830379,"data":"[2026-10-15 10:24:36] [INFO] [aml_causal_atlas] Progress: 4.31 GB / 5.96 GB (72.4%)\n"}
+,{"stream_name":"stdout","time":47.837604512,"data":"[2026-10-15 10:24:37] [INFO] [aml_causal_atlas] Progress: 4.38 GB / 5.96 GB (73.4%)\n"}
+,{"stream_name":"stdout","time":48.019630014,"data":"[2026-10-15 10:24:37] [INFO] [aml_causal_atlas] Progress: 4.44 GB / 5.96 GB (74.5%)\n"}
+,{"stream_name":"stdout","time":48.206146667,"data":"[2026-10-15 10:24:38] [INFO] [aml_causal_atlas] Progress: 4.50 GB / 5.96 GB (75.5%)\n"}
+,{"stream_name":"stdout","time":48.390590366,"data":"[2026-10-15 10:24:38] [INFO] [aml_causal_atlas] Progress: 4.56 GB / 5.96 GB (76.6%)\n"}
+,{"stream_name":"stdout","time":48.575497184,"data":"[2026-10-15 10:24:38] [INFO] [aml_causal_atlas] Progress: 4.62 GB / 5.96 GB (77.6%)\n"}
+,{"stream_name":"stdout","time":48.761511174,"data":"[2026-10-15 10:24:38] [INFO] [aml_causal_atlas] Progress: 4.69 GB / 5.96 GB (78.7%)\n"}
+,{"stream_name":"stdout","time":48.948625415,"data":"[2026-10-15 10:24:38] [INFO] [aml_causal_atlas] Progress: 4.75 GB / 5.96 GB (79.7%)\n"}
+,{"stream_name":"stdout","time":49.13470508,"data":"[2026-10-15 10:24:38] [INFO] [aml_causal_atlas] Progress: 4.81 GB / 5.96 GB (80.8%)\n"}
+,{"stream_name":"stdout","time":49.320376897,"data":"[2026-10-15 10:24:39] [INFO] [aml_causal_atlas] Progress: 4.88 GB / 5.96 GB (81.8%)\n"}
+,{"stream_name":"stdout","time":49.507552964,"data":"[2026-10-15 10:24:39] [INFO] [aml_causal_atlas] Progress: 4.94 GB / 5.96 GB (82.9%)\n"}
+,{"stream_name":"stdout","time":49.69495822,"data":"[2026-10-15 10:24:39] [INFO] [aml_causal_atlas] Progress: 5.00 GB / 5.96 GB (83.9%)\n"}
+,{"stream_name":"stdout","time":49.879886507,"data":"[2026-10-15 10:24:39] [INFO] [aml_causal_atlas] Progress: 5.06 GB / 5.96 GB (85.0%)\n"}
+,{"stream_name":"stdout","time":50.064289517,"data":"[2026-10-15 10:24:39] [INFO] [aml_causal_atlas] Progress: 5.12 GB / 5.96 GB (86.0%)\n"}
+,{"stream_name":"stdout","time":50.249794518,"data":"[2026-10-15 10:24:40] [INFO] [aml_causal_atlas] Progress: 5.19 GB / 5.96 GB (87.1%)\n"}
+,{"stream_name":"stdout","time":50.435020818,"data":"[2026-10-15 10:24:40] [INFO] [aml_causal_atlas] Progress: 5.25 GB / 5.96 GB (88.1%)\n"}
+,{"stream_name":"stdout","time":50.619170304,"data":"[2026-10-15 10:24:40] [INFO] [aml_causal_atlas] Progress: 5.31 GB / 5.96 GB (89.2%)\n"}
+,{"stream_name":"stdout","time":50.804250313,"data":"[2026-10-15 10:24:40] [INFO] [aml_causal_atlas] Progress: 5.38 GB / 5.96 GB (90.2%)\n"}
+,{"stream_name":"stdout","time":50.992160254,"data":"[2026-10-15 10:24:40] [INFO] [aml_causal_atlas] Progress: 5.44 GB / 5.96 GB (91.3%)\n"}
+,{"stream_name":"stdout","time":51.187728689,"data":"[2026-10-15 10:24:41] [INFO] [aml_causal_atlas] Progress: 5.50 GB / 5.96 GB (92.3%)\n"}
+,{"stream_name":"stdout","time":51.374945416,"data":"[2026-10-15 10:24:41] [INFO] [aml_causal_atlas] Progress: 5.56 GB / 5.96 GB (93.4%)\n"}
+,{"stream_name":"stdout","time":51.562036469,"data":"[2026-10-15 10:24:41] [INFO] [aml_causal_atlas] Progress: 5.62 GB / 5.96 GB (94.4%)\n"}
+,{"stream_name":"stdout","time":51.747858436,"data":"[2026-10-15 10:24:41] [INFO] [aml_causal_atlas] Progress: 5.69 GB / 5.96 GB (95.4%)\n"}
+,{"stream_name":"stdout","time":51.936290189,"data":"[2026-10-15 10:24:41] [INFO] [aml_causal_atlas] Progress: 5.75 GB / 5.96 GB (96.5%)\n"}
+,{"stream_name":"stdout","time":52.122242279,"data":"[2026-10-15 10:24:41] [INFO] [aml_causal_atlas] Progress: 5.81 GB / 5.96 GB (97.5%)\n"}
+,{"stream_name":"stdout","time":52.308177119,"data":"[2026-10-15 10:24:42] [INFO] [aml_causal_atlas] Progress: 5.88 GB / 5.96 GB (98.6%)\n"}
+,{"stream_name":"stdout","time":52.494509911,"data":"[2026-10-15 10:24:42] [INFO] [aml_causal_atlas] Progress: 5.94 GB / 5.96 GB (99.6%)\n"}
+,{"stream_name":"stdout","time":52.558113396,"data":"[2026-10-15 10:24:42] [INFO] [aml_causal_atlas] Download complete: /tmp/aml_scatlas_748k.h5ad (6,398,033,807 bytes).\n"}
+,{"stream_name":"stdout","time":52.558267703,"data":"[2026-10-15 10:24:42] [INFO] [data_loading] Downloading CRISPRi read count matrix from https://ftp.ncbi.nlm.nih.gov/geo/series/GSE318nnn/GSE318789/suppl/GSE318789_MOLM13_All_Readcount_Data.txt.gz -\u003e /tmp/GSE318789_MOLM13_All_Readcount_Data.txt.gz...\n"}
+,{"stream_name":"stdout","time":52.558616876,"data":"[2026-10-15 10:24:42] [INFO] [aml_causal_atlas] Streaming from https://ftp.ncbi.nlm.nih.gov/geo/series/GSE318nnn/GSE318789/suppl/GSE318789_MOLM13_All_Readcount_Data.txt.gz -\u003e /tmp/GSE318789_MOLM13_All_Readcount_Data.txt.gz (Existing: 0 bytes)...\n"}
+,{"stream_name":"stdout","time":52.709360307,"data":"[2026-10-15 10:24:42] [INFO] [aml_causal_atlas] Progress: 0.00 GB / 0.00 GB (100.0%)\n"}
+,{"stream_name":"stdout","time":52.709476079,"data":"[2026-10-15 10:24:42] [INFO] [aml_causal_atlas] Download complete: /tmp/GSE318789_MOLM13_All_Readcount_Data.txt.gz (1,418,304 bytes).\n"}
+,{"stream_name":"stdout","time":55.196064703,"data":"[2026-10-15 10:24:45] [INFO] [data_loading] Loaded CRISPRi dataset: 46,188 sgRNAs across 14 columns.\n"}
+,{"stream_name":"stdout","time":55.215647685,"data":"[2026-10-15 10:24:45] [INFO] [data_loading] Extracted 7,730 unique target lncRNAs from column 'Gene'.\n"}
+,{"stream_name":"stdout","time":55.21566746,"data":"[2026-10-15 10:24:45] [INFO] [data_loading] Mounting AnnData in backed mode from /tmp/aml_scatlas_748k.h5ad...\n"}
+,{"stream_name":"stdout","time":63.623641463,"data":"[2026-10-15 10:24:53] [INFO] [data_loading] Mounted successfully: 748,679 cells x 21,588 genes.\n"}
+,{"stream_name":"stdout","time":64.383148335,"data":"[2026-10-15 10:24:54] [INFO] [feature_selection] Retained 29 core driver \u0026 TF genes in atlas.\n"}
+,{"stream_name":"stdout","time":64.397923972,"data":"[2026-10-15 10:24:54] [INFO] [feature_selection] Added 196 matching CRISPRi screen targets.\n"}
+,{"stream_name":"stdout","time":65.203180486,"data":"[2026-10-15 10:24:55] [INFO] [feature_selection] Identified 1,803 total putative lncRNAs in var annotations.\n"}
+,{"stream_name":"stdout","time":65.203824535,"data":"[2026-10-15 10:24:55] [INFO] [feature_selection] Added 418 additional candidate lncRNAs to reach target count.\n"}
+,{"stream_name":"stdout","time":65.20484542,"data":"[2026-10-15 10:24:55] [INFO] [feature_selection] Final hybrid feature set: 650 genes.\n"}
+,{"stream_name":"stdout","time":65.204865591,"data":"[2026-10-15 10:24:55] [INFO] [kaggle_pipeline] Slicing 650 candidate features from 748,679 cells into memory...\n"}
+,{"stream_name":"stdout","time":179.462245684,"data":"[2026-10-15 10:26:49] [INFO] [preprocessing] Starting Metacell pooling (GPU=True, TargetSize=35)...\n"}
+,{"stream_name":"stderr","time":240.6699797,"data":"/usr/lib/python3.13/functools.py:934: ImplicitModificationWarning: Transforming to str index.\n"}
+,{"stream_name":"stderr","time":240.670032013,"data":"  return dispatch(args[0].__class__)(*args, **kw)\n"}
+,{"stream_name":"stdout","time":240.712642011,"data":"[2026-10-15 10:27:50] [INFO] [preprocessing] Metacell Atlas constructed: 2,476 metacells x 650 features.\n"}
+,{"stream_name":"stdout","time":240.761519472,"data":"[2026-10-15 10:27:50] [INFO] [kaggle_pipeline] Saved compact metacell AnnData object (\u003c50MB).\n"}
+,{"stream_name":"stdout","time":240.761862032,"data":"[2026-10-15 10:27:50] [INFO] [multi_resolution] --- Resolution 1: Global AML Causal Network ---\n"}
+,{"stream_name":"stdout","time":240.762036236,"data":"[2026-10-15 10:27:50] [INFO] [causal_discovery] Running Bootstrap PC Discovery (N=2476 metacells, P=650 genes, B=30 bootstraps, alpha=0.01)...\n"}
+,{"stream_name":"stdout","time":240.783206124,"data":"[2026-10-15 10:27:50] [INFO] [causal_discovery] BackgroundKnowledge initialized with 56,784 biologically forbidden edges.\n"}
+,{"stream_name":"stdout","time":241.170029735,"data":"[2026-10-15 10:27:51] [INFO] [causal_discovery] Launching 30 parallel PC runs with joblib (n_jobs=-1)...\n"}
+,{"stream_name":"stdout","time":508.702497201,"data":"[2026-10-15 10:32:18] [INFO] [causal_discovery] Discovered 16,782 stable causal edges across 650 genes.\n"}
+,{"stream_name":"stdout","time":508.719379311,"data":"[2026-10-15 10:32:18] [INFO] [multi_resolution] --- Resolution 2: LSC-like State Network (N=1075 metacells) ---\n"}
+,{"stream_name":"stdout","time":508.722460033,"data":"[2026-10-15 10:32:18] [INFO] [causal_discovery] Running Bootstrap PC Discovery (N=1075 metacells, P=650 genes, B=30 bootstraps, alpha=0.01)...\n"}
+,{"stream_name":"stdout","time":508.741262092,"data":"[2026-10-15 10:32:18] [INFO] [causal_discovery] BackgroundKnowledge initialized with 56,784 biologically forbidden edges.\n"}
+,{"stream_name":"stdout","time":508.819438317,"data":"[2026-10-15 10:32:18] [INFO] [causal_discovery] Launching 30 parallel PC runs with joblib (n_jobs=-1)...\n"}
+,{"stream_name":"stderr","time":673.343717955,"data":"/usr/local/lib/python3.13/dist-packages/numpy/lib/_function_base_impl.py:2999: RuntimeWarning: invalid value encountered in divide\n"}
+,{"stream_name":"stderr","time":673.343774735,"data":"  c /= stddev[:, None]\n"}
+,{"stream_name":"stderr","time":673.344161907,"data":"/usr/local/lib/python3.13/dist-packages/numpy/lib/_function_base_impl.py:3000: RuntimeWarning: invalid value encountered in divide\n"}
+,{"stream_name":"stderr","time":673.34418098,"data":"  c /= stddev[None, :]\n"}
+,{"stream_name":"stdout","time":673.558630099,"data":"[2026-10-15 10:35:03] [INFO] [causal_discovery] Discovered 8,082 stable causal edges across 650 genes.\n"}
+,{"stream_name":"stdout","time":673.573570711,"data":"[2026-10-15 10:35:03] [INFO] [multi_resolution] --- Resolution 3: Monocytic State Network (N=504 metacells) ---\n"}
+,{"stream_name":"stdout","time":673.575321532,"data":"[2026-10-15 10:35:03] [INFO] [causal_discovery] Running Bootstrap PC Discovery (N=504 metacells, P=650 genes, B=30 bootstraps, alpha=0.01)...\n"}
+,{"stream_name":"stdout","time":673.591724303,"data":"[2026-10-15 10:35:03] [INFO] [causal_discovery] BackgroundKnowledge initialized with 56,784 biologically forbidden edges.\n"}
+,{"stream_name":"stdout","time":673.648211859,"data":"[2026-10-15 10:35:03] [INFO] [causal_discovery] Launching 30 parallel PC runs with joblib (n_jobs=-1)...\n"}
+,{"stream_name":"stderr","time":730.917897287,"data":"/usr/local/lib/python3.13/dist-packages/numpy/lib/_function_base_impl.py:2999: RuntimeWarning: invalid value encountered in divide\n"}
+,{"stream_name":"stderr","time":730.917979362,"data":"  c /= stddev[:, None]\n"}
+,{"stream_name":"stderr","time":730.917986784,"data":"/usr/local/lib/python3.13/dist-packages/numpy/lib/_function_base_impl.py:3000: RuntimeWarning: invalid value encountered in divide\n"}
+,{"stream_name":"stderr","time":730.917992533,"data":"  c /= stddev[None, :]\n"}
+,{"stream_name":"stdout","time":731.1133039,"data":"[2026-10-15 10:36:00] [INFO] [causal_discovery] Discovered 3,042 stable causal edges across 650 genes.\n"}
+,{"stream_name":"stdout","time":731.553104748,"data":"[2026-10-15 10:36:01] [INFO] [multi_resolution] Computing Differential Causal Rewiring between LSC and Monocytic states...\n"}
+,{"stream_name":"stdout","time":732.221639834,"data":"[2026-10-15 10:36:02] [INFO] [multi_resolution] Identified 10625 differential edges across 650 genes.\n"}
+,{"stream_name":"stdout","time":733.330041244,"data":"[2026-10-15 10:36:03] [INFO] [intervention] Fitting SCM on DAG with 650 nodes and 9020 directed edges...\n"}
+,{"stream_name":"stdout","time":734.371042343,"data":"[2026-10-15 10:36:04] [INFO] [intervention] Simulating do(lncRNA=0) knockouts across 25 candidate regulators...\n"}
+,{"stream_name":"stdout","time":735.954107062,"data":"[2026-10-15 10:36:05] [INFO] [intervention] Completed in-silico knockout campaign: 225 target effects recorded.\n"}
+,{"stream_name":"stdout","time":735.960444559,"data":"[2026-10-15 10:36:05] [INFO] [graph_analysis] Computing Master Regulator Scores (MRS) across gene regulatory networks...\n"}
+,{"stream_name":"stdout","time":737.977521869,"data":"[2026-10-15 10:36:07] [INFO] [graph_analysis] Top 5 Master Regulators: ['ENSG00000261824', 'ENSG00000224429', 'ENSG00000261455', 'ENSG00000247708', 'ENSG00000263753']\n"}
+,{"stream_name":"stdout","time":739.36100515,"data":"[2026-10-15 10:36:09] [INFO] [graph_analysis] Exported causal graph to /kaggle/working/results/networks/global_dag.graphml (649 nodes, 16782 edges).\n"}
+,{"stream_name":"stdout","time":739.967565131,"data":"[2026-10-15 10:36:09] [INFO] [graph_analysis] Exported causal graph to /kaggle/working/results/networks/lsc_dag.graphml (635 nodes, 8082 edges).\n"}
+,{"stream_name":"stdout","time":740.201779934,"data":"[2026-10-15 10:36:10] [INFO] [graph_analysis] Exported causal graph to /kaggle/working/results/networks/mono_dag.graphml (591 nodes, 3042 edges).\n"}
+,{"stream_name":"stdout","time":740.202428368,"data":"[2026-10-15 10:36:10] [INFO] [validation] Executing Statistical Validation against GSE318789 CRISPRi screens...\n"}
+,{"stream_name":"stdout","time":740.204163205,"data":"[2026-10-15 10:36:10] [INFO] [validation] Screen 'proliferation': 0/25 hits (Fold=0.00x, Fisher p=1.0000e+00, OR=0.00) -\u003e Overlap: []\n"}
+,{"stream_name":"stdout","time":740.204686819,"data":"[2026-10-15 10:36:10] [INFO] [validation] Screen 'venetoclax': 0/25 hits (Fold=0.00x, Fisher p=1.0000e+00, OR=0.00) -\u003e Overlap: []\n"}
+,{"stream_name":"stdout","time":740.205194463,"data":"[2026-10-15 10:36:10] [INFO] [validation] Screen 'differentiation': 0/25 hits (Fold=0.00x, Fisher p=1.0000e+00, OR=0.00) -\u003e Overlap: []\n"}
+,{"stream_name":"stdout","time":740.20737031,"data":"[2026-10-15 10:36:10] [INFO] [kaggle_pipeline] Generating publication figures...\n"}
+,{"stream_name":"stderr","time":740.253525633,"data":"/kaggle/src/script.py:161: FutureWarning: \n"}
+,{"stream_name":"stderr","time":740.253542549,"data":"\n"}
+,{"stream_name":"stderr","time":740.253551996,"data":"Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.\n"}
+,{"stream_name":"stderr","time":740.253555368,"data":"\n"}
+,{"stream_name":"stderr","time":740.253558136,"data":"  sns.barplot(data=top_mrs, x=\"mrs_score\", y=\"symbol\", palette=\"viridis\", ax=ax)\n"}
+,{"stream_name":"stderr","time":740.837587292,"data":"/kaggle/src/script.py:170: FutureWarning: \n"}
+,{"stream_name":"stderr","time":740.837612773,"data":"\n"}
+,{"stream_name":"stderr","time":740.837622608,"data":"Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.\n"}
+,{"stream_name":"stderr","time":740.837625935,"data":"\n"}
+,{"stream_name":"stderr","time":740.837628183,"data":"  sns.barplot(data=val_df, x=\"screen_phenotype\", y=\"fold_enrichment\", palette=\"magma\", ax=ax)\n"}
+,{"stream_name":"stdout","time":742.076665418,"data":"[2026-10-15 10:36:11] [INFO] [kaggle_pipeline] === Pipeline execution completed successfully! All artifacts generated. ===\n"}
+,{"stream_name":"stderr","time":749.308982073,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":749.309009251,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":749.593575862,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":749.593616282,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":750.422961776,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":751.206267895,"data":"[NbConvertApp] Writing 396152 bytes to __results__.html\n"}
+]

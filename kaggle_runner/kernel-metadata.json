@@ -1,0 +1,15 @@
+{
+  "id": "metanoiam/aml-lncrna-mrna-multi-resolution-causal-atlas",
+  "title": "AML lncRNA-mRNA Multi-Resolution Causal Atlas",
+  "code_file": "run_kaggle_pipeline.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_tpu": "false",
+  "enable_internet": "true",
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": []
+}

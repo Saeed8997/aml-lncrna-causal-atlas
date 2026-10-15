@@ -1,0 +1,118 @@
+project:
+  name: "aml-lncrna-causal-atlas"
+  title: "Causal lncRNA–mRNA Regulatory Atlas of Acute Myeloid Leukemia (AML)"
+  version: "1.0.0"
+  random_seed: 42
+
+endpoints:
+  primary_atlas_url: "https://datasets.cellxgene.cziscience.com/be1f3ced-6b8f-47b0-a3e2-7edc8d466abd.h5ad"
+  primary_atlas_size_bytes: 6398033807
+  crispri_readcounts_url: "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE318nnn/GSE318789/suppl/GSE318789_MOLM13_All_Readcount_Data.txt.gz"
+  geo_accession: "GSE318789"
+  pmcid: "PMC13318546"
+
+paths:
+  kaggle_tmp_h5ad: "/tmp/aml_scatlas_748k.h5ad"
+  kaggle_tmp_crispr: "/tmp/GSE318789_MOLM13_All_Readcount_Data.txt.gz"
+  kaggle_results_dir: "/kaggle/working/results"
+  local_results_dir: "results"
+
+features:
+  target_feature_count: 650
+  max_features: 800
+  cis_distance_bp: 500000  # 500 kb TSS window
+  core_aml_drivers:
+    - "NPM1"
+    - "FLT3"
+    - "DNMT3A"
+    - "RUNX1"
+    - "BCL2"
+    - "MCL1"
+    - "BCL2A1"
+    - "PMAIP1"
+    - "BAX"
+    - "MYC"
+    - "HOXA9"
+    - "MEIS1"
+    - "CD34"
+    - "LYZ"
+    - "CD14"
+    - "CEBPA"
+    - "KIT"
+    - "IDH1"
+    - "IDH2"
+    - "WT1"
+    - "GATA2"
+    - "SPI1"
+  venetoclax_axis:
+    - "BCL2"
+    - "MCL1"
+    - "BCL2A1"
+    - "PMAIP1"
+    - "BAX"
+  stemness_axis:
+    - "HOXA9"
+    - "MEIS1"
+    - "MYC"
+    - "CD34"
+  key_tfs:
+    - "RUNX1"
+    - "SPI1"
+    - "CEBPA"
+    - "MYC"
+    - "GATA2"
+    - "HOXA9"
+    - "MEIS1"
+    - "ERG"
+    - "IKZF1"
+    - "FLI1"
+    - "TAL1"
+    - "KLF4"
+    - "JUN"
+    - "FOS"
+  crispri_validation_hits:
+    proliferation:
+      - "MIR17HG"
+      - "CATG00000106133.1"
+      - "CATG00000056792.1"
+      - "MALAT1"
+      - "NEAT1"
+      - "DANCR"
+      - "PVT1"
+    venetoclax:
+      - "AC009299.3"
+      - "HOTAIR"
+      - "LINC00511"
+      - "LINC00152"
+    differentiation:
+      - "HOTAIRM1"
+      - "H19"
+
+metacell_preprocessing:
+  knn_k: 15
+  n_pcs: 30
+  target_metacell_size: 35
+  min_cells_per_cohort: 500
+  max_metacells: 3500
+  use_gpu: true
+
+causal_discovery:
+  algorithm: "pc"
+  ci_test: "fisherz"
+  alpha: 0.01
+  max_depth: 2
+  n_bootstraps: 30
+  subsample_ratio: 0.80
+  stability_threshold: 0.60
+  n_jobs: -1
+
+intervention:
+  ridge_alpha: 0.1
+  do_knockout_value: 0.0
+
+kaggle:
+  username: "metanoiam"
+  kernel_slug: "aml-lncrna-causal-atlas"
+  kernel_title: "AML lncRNA-mRNA Multi-Resolution Causal Atlas"
+  enable_gpu: true
+  enable_internet: true

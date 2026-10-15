@@ -1,0 +1,4 @@
+screen_phenotype,total_network_lncrnas,crispri_hits_in_network,top_k_evaluated,top_k_crispri_hits,expected_hits,fold_enrichment,odds_ratio,fisher_pvalue,hypergeom_pvalue,validated_hit_symbols
+proliferation,532,4,25,0,0.19,0.0,0.0,1.0,1.0,None
+venetoclax,532,2,25,0,0.09,0.0,0.0,1.0,1.0,None
+differentiation,532,1,25,0,0.05,0.0,0.0,1.0,1.0,None

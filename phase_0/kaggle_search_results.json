@@ -1,0 +1,222 @@
+{
+  "by_query": {
+    "BoneMarrowMap": [],
+    "Zeng AML": [],
+    "scAML": [],
+    "AML scAtlas": [],
+    "748,679": [],
+    "748679": [],
+    "van Galen AML": [
+      {
+        "ref": "thomasneff/aml-2019-healthy-bone-marrow-scrna-seq",
+        "title": "AML 2019 - Healthy Bone Marrow scRNA-seq",
+        "size": "N/A",
+        "totalBytes": null,
+        "lastUpdated": "N/A",
+        "downloadCount": 0,
+        "url": "https://www.kaggle.com/datasets/thomasneff/aml-2019-healthy-bone-marrow-scrna-seq"
+      }
+    ],
+    "van Galen": [
+      {
+        "ref": "thomasneff/aml-2019-healthy-bone-marrow-scrna-seq",
+        "title": "AML 2019 - Healthy Bone Marrow scRNA-seq",
+        "size": "N/A",
+        "totalBytes": null,
+        "lastUpdated": "N/A",
+        "downloadCount": 0,
+        "url": "https://www.kaggle.com/datasets/thomasneff/aml-2019-healthy-bone-marrow-scrna-seq"
+      }
+    ],
+    "GSE318789": [],
+    "AML CRISPRi lncRNA": [],
+    "AML CRISPRi": [],
+    "CRISPRi lncRNA": [],
+    "MOLM-13": [
+      {
+        "ref": "francescodeleonardis/graphpad-prism-file-manuscript-de-leonardis-et-al",
+        "title": "GraphPad Prism file manuscript De Leonardis et al.",
+        "size": "N/A",
+        "totalBytes": null,
+        "lastUpdated": "N/A",
+        "downloadCount": 0,
+        "url": "https://www.kaggle.com/datasets/francescodeleonardis/graphpad-prism-file-manuscript-de-leonardis-et-al"
+      }
+    ],
+    "AML single cell": [
+      {
+        "ref": "akhiljethwa/blood-cancer-image-dataset",
+        "title": "Blood Cancer - Image Dataset",
+        "size": "N/A",
+        "totalBytes": null,
+        "lastUpdated": "N/A",
+        "downloadCount": 0,
+        "url": "https://www.kaggle.com/datasets/akhiljethwa/blood-cancer-image-dataset"
+      },
+      {
+        "ref": "gchan357/human-aml-cytomorphology-dataset",
+        "title": "Human Leukemia Cytomorphology Dataset",
+        "size": "N/A",
+        "totalBytes": null,
+        "lastUpdated": "N/A",
+        "downloadCount": 0,
+        "url": "https://www.kaggle.com/datasets/gchan357/human-aml-cytomorphology-dataset"
+      },
+      {
+        "ref": "kmader/cellcnn-learning-disease-associated-cell-subsets",
+        "title": "CellCNN Learning Disease Associated Cell Subsets",
+        "size": "N/A",
+        "totalBytes": null,
+        "lastUpdated": "N/A",
+        "downloadCount": 0,
+        "url": "https://www.kaggle.com/datasets/kmader/cellcnn-learning-disease-associated-cell-subsets"
+      },
+      {
+        "ref": "livepriyanka09/aml-cytology",
+        "title": "AML-Cytomorphology_LMU ",
+        "size": "N/A",
+        "totalBytes": null,
+        "lastUpdated": "N/A",
+        "downloadCount": 0,
+        "url": "https://www.kaggle.com/datasets/livepriyanka09/aml-cytology"
+      },
+      {
+        "ref": "walkersneps/aml-cytomorphology-lmu",
+        "title": "AML-Cytomorphology_LMU",
+        "size": "N/A",
+        "totalBytes": null,
+        "lastUpdated": "N/A",
+        "downloadCount": 0,
+        "url": "https://www.kaggle.com/datasets/walkersneps/aml-cytomorphology-lmu"
+      },
+      {
+        "ref": "thomasneff/aml-2019-healthy-bone-marrow-scrna-seq",
+        "title": "AML 2019 - Healthy Bone Marrow scRNA-seq",
+        "size": "N/A",
+        "totalBytes": null,
+        "lastUpdated": "N/A",
+        "downloadCount": 0,
+        "url": "https://www.kaggle.com/datasets/thomasneff/aml-2019-healthy-bone-marrow-scrna-seq"
+      },
+      {
+        "ref": "lsaa2014/single-cell-morphological-dataset-of-leukocytes",
+        "title": "Single cell Morphological Dataset of Leukocytes",
+        "size": "N/A",
+        "totalBytes": null,
+        "lastUpdated": "N/A",
+        "downloadCount": 0,
+        "url": "https://www.kaggle.com/datasets/lsaa2014/single-cell-morphological-dataset-of-leukocytes"
+      },
+      {
+        "ref": "rashasalim/blood-smear-images-for-aml-diagnosis",
+        "title": "A Single-cell Morphological Dataset of Leukocytes",
+        "size": "N/A",
+        "totalBytes": null,
+        "lastUpdated": "N/A",
+        "downloadCount": 0,
+        "url": "https://www.kaggle.com/datasets/rashasalim/blood-smear-images-for-aml-diagnosis"
+      },
+      {
+        "ref": "emmanueldelapaz/dr-procurement-risk-index-2021-2026",
+        "title": "DR Procurement Risk Index 2021-2026",
+        "size": "N/A",
+        "totalBytes": null,
+        "lastUpdated": "N/A",
+        "downloadCount": 0,
+        "url": "https://www.kaggle.com/datasets/emmanueldelapaz/dr-procurement-risk-index-2021-2026"
+      }
+    ]
+  },
+  "all_unique": {
+    "thomasneff/aml-2019-healthy-bone-marrow-scrna-seq": {
+      "ref": "thomasneff/aml-2019-healthy-bone-marrow-scrna-seq",
+      "title": "AML 2019 - Healthy Bone Marrow scRNA-seq",
+      "size": "N/A",
+      "totalBytes": null,
+      "lastUpdated": "N/A",
+      "downloadCount": 0,
+      "url": "https://www.kaggle.com/datasets/thomasneff/aml-2019-healthy-bone-marrow-scrna-seq"
+    },
+    "francescodeleonardis/graphpad-prism-file-manuscript-de-leonardis-et-al": {
+      "ref": "francescodeleonardis/graphpad-prism-file-manuscript-de-leonardis-et-al",
+      "title": "GraphPad Prism file manuscript De Leonardis et al.",
+      "size": "N/A",
+      "totalBytes": null,
+      "lastUpdated": "N/A",
+      "downloadCount": 0,
+      "url": "https://www.kaggle.com/datasets/francescodeleonardis/graphpad-prism-file-manuscript-de-leonardis-et-al"
+    },
+    "akhiljethwa/blood-cancer-image-dataset": {
+      "ref": "akhiljethwa/blood-cancer-image-dataset",
+      "title": "Blood Cancer - Image Dataset",
+      "size": "N/A",
+      "totalBytes": null,
+      "lastUpdated": "N/A",
+      "downloadCount": 0,
+      "url": "https://www.kaggle.com/datasets/akhiljethwa/blood-cancer-image-dataset"
+    },
+    "gchan357/human-aml-cytomorphology-dataset": {
+      "ref": "gchan357/human-aml-cytomorphology-dataset",
+      "title": "Human Leukemia Cytomorphology Dataset",
+      "size": "N/A",
+      "totalBytes": null,
+      "lastUpdated": "N/A",
+      "downloadCount": 0,
+      "url": "https://www.kaggle.com/datasets/gchan357/human-aml-cytomorphology-dataset"
+    },
+    "kmader/cellcnn-learning-disease-associated-cell-subsets": {
+      "ref": "kmader/cellcnn-learning-disease-associated-cell-subsets",
+      "title": "CellCNN Learning Disease Associated Cell Subsets",
+      "size": "N/A",
+      "totalBytes": null,
+      "lastUpdated": "N/A",
+      "downloadCount": 0,
+      "url": "https://www.kaggle.com/datasets/kmader/cellcnn-learning-disease-associated-cell-subsets"
+    },
+    "livepriyanka09/aml-cytology": {
+      "ref": "livepriyanka09/aml-cytology",
+      "title": "AML-Cytomorphology_LMU ",
+      "size": "N/A",
+      "totalBytes": null,
+      "lastUpdated": "N/A",
+      "downloadCount": 0,
+      "url": "https://www.kaggle.com/datasets/livepriyanka09/aml-cytology"
+    },
+    "walkersneps/aml-cytomorphology-lmu": {
+      "ref": "walkersneps/aml-cytomorphology-lmu",
+      "title": "AML-Cytomorphology_LMU",
+      "size": "N/A",
+      "totalBytes": null,
+      "lastUpdated": "N/A",
+      "downloadCount": 0,
+      "url": "https://www.kaggle.com/datasets/walkersneps/aml-cytomorphology-lmu"
+    },
+    "lsaa2014/single-cell-morphological-dataset-of-leukocytes": {
+      "ref": "lsaa2014/single-cell-morphological-dataset-of-leukocytes",
+      "title": "Single cell Morphological Dataset of Leukocytes",
+      "size": "N/A",
+      "totalBytes": null,
+      "lastUpdated": "N/A",
+      "downloadCount": 0,
+      "url": "https://www.kaggle.com/datasets/lsaa2014/single-cell-morphological-dataset-of-leukocytes"
+    },
+    "rashasalim/blood-smear-images-for-aml-diagnosis": {
+      "ref": "rashasalim/blood-smear-images-for-aml-diagnosis",
+      "title": "A Single-cell Morphological Dataset of Leukocytes",
+      "size": "N/A",
+      "totalBytes": null,
+      "lastUpdated": "N/A",
+      "downloadCount": 0,
+      "url": "https://www.kaggle.com/datasets/rashasalim/blood-smear-images-for-aml-diagnosis"
+    },
+    "emmanueldelapaz/dr-procurement-risk-index-2021-2026": {
+      "ref": "emmanueldelapaz/dr-procurement-risk-index-2021-2026",
+      "title": "DR Procurement Risk Index 2021-2026",
+      "size": "N/A",
+      "totalBytes": null,
+      "lastUpdated": "N/A",
+      "downloadCount": 0,
+      "url": "https://www.kaggle.com/datasets/emmanueldelapaz/dr-procurement-risk-index-2021-2026"
+    }
+  }
+}
