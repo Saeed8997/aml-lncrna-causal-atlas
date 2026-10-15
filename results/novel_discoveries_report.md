@@ -19,6 +19,10 @@ To distinguish genuine biological discoveries from rediscovery of known leukemia
 > [!IMPORTANT]
 > Over **82%** of top causal lncRNA master regulators discovered in this atlas have **zero prior publications in Acute Myeloid Leukemia**, representing an unprecedented reservoir of unexploited functional targets and therapeutic vulnerabilities.
 
+<p align="center">
+  <img src="figures/causal_network_connections.png" alt="Causal Network Connections Map" width="90%"/>
+</p>
+
 ---
 
 ### 1. Gold-Standard Novel Therapeutic Targets (Tier 1 Novel, High MRS, Perturbation Impact)

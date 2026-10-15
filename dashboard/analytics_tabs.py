@@ -112,6 +112,10 @@ def render_novelty_and_rewiring_tab(df_novel: pd.DataFrame, df_rewire: pd.DataFr
 
 def render_crispri_gallery_tab(df_val: pd.DataFrame):
     st.subheader("🔬 CRISPRi Screen Functional Validation & Publication Figures")
+    conn_fp = os.path.join(FIG_DIR, "causal_network_connections.png")
+    if os.path.exists(conn_fp):
+        st.markdown("**Discovered Hierarchical Causal Regulatory Connections (lncRNA -> TF -> Effector)**")
+        st.image(conn_fp, use_container_width=True)
     colA, colB, colC = st.columns(3)
     figs = [
         ("crispri_enrichment_barplot.png", "CRISPRi Screen Enrichment (GSE318789)", colA),

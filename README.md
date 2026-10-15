@@ -80,9 +80,23 @@ For each discovered Directed Acyclic Graph (DAG), causal mechanisms are formaliz
 $$X_j = f_j(\text{Pa}(X_j)) + \epsilon_j = \sum_{k \in \text{Pa}(X_j)} \beta_{kj} X_k + \epsilon_j$$
 We simulate targeted therapeutic gene silencing via Pearl's $do$-operator ($do(X_{\text{lncRNA}} = 0)$), tracking downstream expression shifts across the network.
 
+### E. Functional Validation Benchmarking (CRISPRi GSE318789)
+Discovered causal lncRNA regulators were validated against orthogonal functional genomics screens from NCBI GEO `GSE318789` (MOLM-13 AML blasts), testing for significant enrichment in proliferation inhibition, differentiation arrest, and Venetoclax drug sensitization:
+
+<p align="center">
+  <img src="results/figures/crispri_enrichment_barplot.png" alt="CRISPRi Screen Functional Validation Enrichment" width="75%"/>
+</p>
+
 ---
 
 ## 4. Key Discovered Findings & Novel Master Regulators
+
+### Discovered Causal Regulatory Connections
+The discovered hierarchical causal network connects upstream Master Regulator lncRNAs through lineage transcription factors to clinical effectors:
+
+<p align="center">
+  <img src="results/figures/causal_network_connections.png" alt="Causal lncRNA-mRNA Regulatory Connections in AML" width="95%"/>
+</p>
 
 ### A. Top Master Regulator lncRNAs (MRS Summary Table)
 
@@ -97,6 +111,10 @@ Ranking is governed by the multi-component Master Regulator Score ($MRS = 0.35 \
 | **#5** | **`LINC00667`** | `ENSG00000263753` | **0.8398** | **75** | **534 genes** | **93.8%** | **Tier 1 (0 AML papers)** | **Apoptosis Switch:** Direct parent to *MYC* and *IKZF1*; prime target for Venetoclax re-sensitization. |
 | **#6** | **`CARD8-AS1`** | `ENSG00000268001` | **0.8355** | **75** | **501 genes** | **92.0%** | **Tier 1 (0 AML papers)** | **LSC Renewal Switch:** Powerful stemness regulator driving *MEIS1* and *HOXA9* expression. |
 
+<p align="center">
+  <img src="results/figures/mrs_top_lncrnas.png" alt="Top Master Regulator Score (MRS) lncRNA Drivers" width="85%"/>
+</p>
+
 ### B. In-Silico Pearlian Knockout Results ($do(\text{lncRNA} = 0)$)
 
 Targeted in-silico gene silencing using our regularized Ridge SCMs revealed specific down-regulation signatures across the Venetoclax and stemness axes:
@@ -105,6 +123,10 @@ Targeted in-silico gene silencing using our regularized Ridge SCMs revealed spec
 - **`do(LINC00667 = 0)`:** Induces a massive **-7.9%** collapse in `BCL2` along with substantial suppression of `MEIS1` (**-4.5%**) and `HOXA9` (**-3.0%**), establishing it as a primary candidate for Venetoclax combination therapy.
 - **`do(CARD8-AS1 = 0)`:** Provokes a dramatic **-16.7%** collapse in `MEIS1`, **-9.1%** in `HOXA9`, and **-2.7%** in `BCL2`, representing the strongest stemness-suppressive effect in the atlas.
 - **`do(LINC01003 = 0)`:** Drives the overall strongest multi-axis suppression across the network: **-17.0%** in `MEIS1`, **-12.4%** in `HOXA9`, **-11.1%** in `CD34`, and **-10.3%** in `BCL2`.
+
+<p align="center">
+  <img src="results/figures/venetoclax_ko_heatmap.png" alt="In-Silico do(lncRNA=0) Knockout Expression Shift Matrix" width="85%"/>
+</p>
 
 ### C. Cell-State Rewiring Statistics (LSC-like vs. Monocytic Blast)
 
@@ -139,6 +161,7 @@ Our constraint-based causal graphs identified high-confidence multi-step cascade
 │   └── run_kaggle_pipeline.py          # Standalone production runner executed on Kaggle
 ├── results/                            # Primary Discovered Deliverables
 │   ├── figures/                        # High-resolution publication figures
+│   │   ├── causal_network_connections.png # Discovered causal regulatory network
 │   │   ├── crispri_enrichment_barplot.png
 │   │   ├── mrs_top_lncrnas.png
 │   │   └── venetoclax_ko_heatmap.png
@@ -162,7 +185,8 @@ Our constraint-based causal graphs identified high-confidence multi-step cascade
 ├── scripts/
 │   ├── 01_prepare_kaggle_payload.py    # Bundler for Kaggle deployment
 │   ├── 02_sync_kaggle_results.py       # Kaggle API artifact download & sync
-│   └── 03_mine_novel_discoveries.py    # Offline novelty & pathway miner
+│   ├── 03_mine_novel_discoveries.py    # Offline novelty & pathway miner
+│   └── plot_causal_network.py          # Publication network figure generator
 ├── src/                                # Core Computational Engine
 │   ├── causal_discovery.py             # Bootstrap PC algorithm with RobustFisherZ
 │   ├── data_loading.py                 # Streaming download & memory-mapped loaders
