@@ -157,6 +157,16 @@ Multi-resolution causal discovery revealed that the regulatory network undergoes
 ---
 ### 5. CRISPRi Functional Validation & Benchmark Controls
 
+<p align="center">
+  <img src="figures/crispri_enrichment_barplot.png" alt="CRISPRi Screen Functional Validation Enrichment" width="75%"/>
+</p>
+
+| Functional Screen Phenotype | Total Network lncRNAs | Screen Hits in Atlas | Top Evaluated (MRS) | Observed Top Hits | Expected Random | Fold Enrichment | Odds Ratio (OR) | Fisher's Exact $p$-value | Validated Hit Symbols |
+|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---|
+| **Proliferation (Cell Growth)** | 532 | 64 | 25 | **11** | 3.01 | **3.66×** | **6.73** | **$3.82 \times 10^{-5}$** | `LINC00662`, `LINC00539`, `LINC01003`, `STX18-AS1`, `LINC00667`, `CARD8-AS1`, `DLGAP1-AS1`, `MCM3AP-AS1`, `LINC01023`, `BAALC-AS1`, `MIR17HG` |
+| **Venetoclax Sensitization** | 532 | 38 | 25 | **8** | 1.79 | **4.48×** | **7.48** | **$1.43 \times 10^{-4}$** | `LINC00667`, `LINC00539`, `CARD8-AS1`, `STX18-AS1`, `LINC01003`, `DLGAP1-AS1`, `ENTPD1-AS1`, `LINC00526` |
+| **Myeloid Differentiation** | 532 | 32 | 25 | **5** | 1.50 | **3.33×** | **4.44** | **$1.28 \times 10^{-2}$** | `MCM3AP-AS1`, `CARD8-AS1`, `LINC00662`, `SBF2-AS1`, `BAALC-AS1` |
+
 Cross-referencing against independent `GSE318789` CRISPRi screen phenotypes demonstrates clear functional concordance:
 
 1. **Known Positive Benchmark Controls (Tier 3):**

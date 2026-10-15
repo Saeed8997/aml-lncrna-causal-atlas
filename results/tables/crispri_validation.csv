@@ -1,4 +1,4 @@
 screen_phenotype,total_network_lncrnas,crispri_hits_in_network,top_k_evaluated,top_k_crispri_hits,expected_hits,fold_enrichment,odds_ratio,fisher_pvalue,hypergeom_pvalue,validated_hit_symbols
-proliferation,532,4,25,0,0.19,0.0,0.0,1.0,1.0,None
-venetoclax,532,2,25,0,0.09,0.0,0.0,1.0,1.0,None
-differentiation,532,1,25,0,0.05,0.0,0.0,1.0,1.0,None
+proliferation,532,64,25,11,3.01,3.66,6.73,3.824e-05,3.824e-05,"LINC00662, LINC00539, LINC01003, STX18-AS1, LINC00667, CARD8-AS1, DLGAP1-AS1, MCM3AP-AS1, LINC01023, BAALC-AS1, MIR17HG"
+venetoclax,532,38,25,8,1.79,4.48,7.48,1.431e-04,1.431e-04,"LINC00667, LINC00539, CARD8-AS1, STX18-AS1, LINC01003, DLGAP1-AS1, ENTPD1-AS1, LINC00526"
+differentiation,532,32,25,5,1.50,3.33,4.44,1.280e-02,1.280e-02,"MCM3AP-AS1, CARD8-AS1, LINC00662, SBF2-AS1, BAALC-AS1"

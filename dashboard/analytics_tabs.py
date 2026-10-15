@@ -131,5 +131,32 @@ def render_crispri_gallery_tab(df_val: pd.DataFrame):
             else:
                 st.info(f"Figure file `{fn}` available in results/figures/.")
     if not df_val.empty:
+        st.markdown("**📊 Interactive CRISPRi Functional Enrichment Benchmark (GSE318789 vs. Top Causal lncRNAs):**")
+        df_plot = df_val.copy()
+        p_col = "screen_phenotype" if "screen_phenotype" in df_plot.columns else df_plot.columns[0]
+        y_col = "fold_enrichment" if "fold_enrichment" in df_plot.columns else df_plot.columns[6]
+        df_plot["phenotype_display"] = df_plot[p_col].astype(str).str.capitalize()
+        fig_val = px.bar(
+            df_plot, x="phenotype_display", y=y_col, color="phenotype_display", text=y_col,
+            hover_data={
+                "phenotype_display": False,
+                "top_k_crispri_hits": True,
+                "expected_hits": True,
+                "odds_ratio": True,
+                "fisher_pvalue": ":.2e",
+                "validated_hit_symbols": True
+            } if "top_k_crispri_hits" in df_plot.columns else None,
+            labels={"phenotype_display": "CRISPRi Screen Phenotype", y_col: "Fold Enrichment (Observed / Expected)"},
+            color_discrete_map={"Proliferation": "#38bdf8", "Venetoclax": "#f43f5e", "Differentiation": "#a855f7"}
+        )
+        fig_val.add_hline(y=1.0, line_dash="dash", line_color="#94a3b8", annotation_text="Expected Random (1.0x)", annotation_position="top left")
+        fig_val.update_traces(texttemplate='%{text:.2f}x', textposition='outside', textfont=dict(size=12, color="#ffffff"))
+        y_max = float(df_plot[y_col].max()) if not df_plot.empty else 5.0
+        fig_val.update_layout(
+            template="plotly_dark", paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="rgba(0,0,0,0)",
+            margin=dict(l=10, r=10, t=35, b=25), height=380, font=dict(size=11, color="#cbd5e1"),
+            yaxis=dict(range=[0, y_max * 1.35]), showlegend=False
+        )
+        st.plotly_chart(fig_val, use_container_width=True)
         st.markdown("**Validation Statistics (Hypergeometric & Fisher Exact Test across GSE318789 Screens):**")
         st.dataframe(df_val, use_container_width=True)
