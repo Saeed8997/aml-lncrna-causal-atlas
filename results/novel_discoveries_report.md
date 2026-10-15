@@ -4,7 +4,8 @@
 > **Report Status:** Finalized (Version 8 Sync Audit)  
 > **Total Hybrid Features Evaluated:** 649 (532 lncRNAs, 117 Drivers/TFs)  
 > **Atlas Substrate:** CELLxGENE AML Single-Cell Atlas (748,679 cells, 2,476 Metacells)  
-> **Causal Framework:** Bootstrap PC Discovery (B=30, Depth=2) + Ridge SCM Interventions
+> **Causal Framework:** Bootstrap PC Discovery (B=30, Depth=2) + Ridge SCM Interventions  
+> **Interactive Web App:** [https://aml-lncrna-causal-atlas-iwlfvnkdg3fh5ryg4thp9h.streamlit.app/](https://aml-lncrna-causal-atlas-iwlfvnkdg3fh5ryg4thp9h.streamlit.app/)
 
 ---
 

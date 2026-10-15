@@ -4,10 +4,14 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-emerald.svg)](LICENSE)
 [![Atlas Scale](https://img.shields.io/badge/Single--Cell%20Atlas-748%2C679%20Cells-purple.svg)](https://cellxgene.cziscience.com/)
 [![Kaggle GPU](https://img.shields.io/badge/Compute-NVIDIA%20T4x2%20GPU-orange.svg)](https://www.kaggle.com/)
-[![Streamlit App](https://img.shields.io/badge/Dashboard-D3.js%20%2B%20Streamlit-ff4b4b.svg)](dashboard/app.py)
+[![Live Demo](https://img.shields.io/badge/Live%20Web%20App-Streamlit%20Cloud-ff4b4b?logo=streamlit&logoColor=white)](https://aml-lncrna-causal-atlas-iwlfvnkdg3fh5ryg4thp9h.streamlit.app/)
 [![CRISPRi Validated](https://img.shields.io/badge/Validation-GSE318789%20CRISPRi-teal.svg)](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE318789)
 
 > **A Multi-Resolution Constraint-Based Causal Discovery Framework for Single-Cell Metacell Atlases with In-Silico *do*-Calculus and CRISPRi Functional Validation.**
+
+> 🚀 **Live Interactive Web Application:**  
+> Access the online multi-resolution causal network simulator, interactive $do(\text{lncRNA}=0)$ perturbation engine, and multi-drug response gauges deployed on Streamlit Cloud:  
+> 👉 **[https://aml-lncrna-causal-atlas-iwlfvnkdg3fh5ryg4thp9h.streamlit.app/](https://aml-lncrna-causal-atlas-iwlfvnkdg3fh5ryg4thp9h.streamlit.app/)**
 
 ---
 
@@ -216,11 +220,17 @@ Our constraint-based causal graphs identified high-confidence multi-step cascade
 
 ## 6. Installation & Interactive Dashboard Execution
 
-### Local Setup
+### 🌐 Live Cloud Web Application (Instant Access)
+You can directly explore the interactive causal simulator without installing anything locally:
+- **Streamlit Community Cloud:** [https://aml-lncrna-causal-atlas-iwlfvnkdg3fh5ryg4thp9h.streamlit.app/](https://aml-lncrna-causal-atlas-iwlfvnkdg3fh5ryg4thp9h.streamlit.app/)
+
+---
+
+### Local Setup & Installation
 Clone the repository and install dependencies in a clean virtual environment:
 ```powershell
-git clone https://github.com/metanoiam/aml-lncrna-mrna-multi-resolution-causal-atlas.git
-cd aml-lncrna-mrna-multi-resolution-causal-atlas
+git clone https://github.com/Saeed8997/aml-lncrna-causal-atlas.git
+cd aml-lncrna-causal-atlas
 
 # Create and activate virtual environment
 python -m venv .venv
@@ -230,13 +240,13 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-### Running Unit Tests
+### Running Unit & Integration Tests
 Validate pipeline modules and graph algorithms:
 ```powershell
-pytest tests/ -v
+python -m unittest discover tests/
 ```
 
-### Launching the Interactive D3.js + Streamlit Web App
+### Launching the Interactive D3.js + Streamlit Web App Locally
 Launch the modern, publication-grade interactive dashboard:
 ```powershell
 python -m streamlit run dashboard/app.py
@@ -246,6 +256,7 @@ Open `http://localhost:8501` in any modern web browser to explore:
 - **`do(lncRNA=0)` Knockout Intensity Slider:** Real-time perturbation propagation into **5 clinical drug sensitivity gauges** (Venetoclax, Revumenib, Tapotoclax, Gilteritinib, Azacitidine combo).
 - **3-Hop Sankey Regulatory Flow:** Visualizing `lncRNA -> TF -> Effector -> Drug Sensitivity`.
 - **Therapeutic Quadrant Explorer:** Interactive bubble chart identifying high-MRS, high-knockout novel targets with zero AML papers.
+- **CRISPRi Functional Validation & Publication Gallery:** High-resolution empirical figures and interactive enrichment benchmark chart.
 
 ---
 
