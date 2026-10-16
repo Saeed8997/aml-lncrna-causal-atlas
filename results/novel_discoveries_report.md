@@ -26,7 +26,7 @@ To distinguish genuine biological discoveries from rediscovery of known leukemia
 
 ---
 
-### 1. Gold-Standard Novel Therapeutic Targets (Tier 1 Novel, High MRS, Perturbation Impact)
+### 1. High-Priority Novel Therapeutic Candidates (Tier 1 Novel, High MRS, Perturbation Impact)
 
 The table below highlights the top novel lncRNAs that combine **0 prior AML papers**, top Master Regulator Scores ($MRS \ge 0.65$), high bootstrap stability ($>90\%$), and strong in-silico causal perturbation effects ($do(\text{lncRNA}=0)$):
 
@@ -48,7 +48,7 @@ The table below highlights the top novel lncRNAs that combine **0 prior AML pape
 #### Detailed Mechanistic Profiles of Top 5 Tier 1 Candidates:
 
 1. **`LINC00539` (MRS Rank #2, Score: 0.9446):**
-   - **Novelty:** 0 AML publications (completely unstudied in myeloid leukemia).
+   - **Novelty:** 0 AML publications (no prior AML-specific publications indexed in PubMed).
    - **Causal Architecture:** Direct outgoing causal edges to 99 downstream targets; reaches 528 genes across the network (bootstrap stability 95.8%).
    - **In-Silico KO Effect:** In-silico silencing collapses `MEIS1` (-5.23%), `BCL2` (-3.70%), and `HOXA9` (-3.39%).
    - **Biological Role:** Upstream orchestrator of stemness maintenance and Venetoclax resistance.

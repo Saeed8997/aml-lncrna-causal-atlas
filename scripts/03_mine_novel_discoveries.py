@@ -201,8 +201,8 @@ def run_novelty_mining():
     # Top rewiring among Tier 1 & Tier 2
     top_switches = rewire_summary[rewire_summary['novelty_tier'].str.contains('Tier 1|Tier 2')].sort_values('total_delta', ascending=False).head(10)
 
-    # 5. Gold-Standard Novel Therapeutic Targets
-    print("[5/5] Synthesizing Gold-Standard Novel Therapeutic Targets...")
+    # 5. High-Priority Novel Therapeutic Candidates
+    print("[5/5] Synthesizing High-Priority Novel Therapeutic Candidates...")
     gold_candidates = lnc_mrs[
         (lnc_mrs['novelty_tier'].str.contains('Tier 1')) &
         (lnc_mrs['mrs_score'] >= 0.65)
@@ -236,7 +236,7 @@ def run_novelty_mining():
     md.append(f"> Over **82%** of top causal lncRNA master regulators discovered in this atlas have **zero prior publications in Acute Myeloid Leukemia**, representing an unprecedented reservoir of unexploited functional targets and therapeutic vulnerabilities.\n")
 
     md.append("---\n")
-    md.append("### 1. Gold-Standard Novel Therapeutic Targets (Tier 1 Novel, High MRS, Perturbation Impact)\n")
+    md.append("### 1. High-Priority Novel Therapeutic Candidates (Tier 1 Novel, High MRS, Perturbation Impact)\n")
     md.append("The table below highlights the top novel lncRNAs that combine **0 prior AML papers**, top Master Regulator Scores ($MRS \\ge 0.65$), high bootstrap stability ($>90\\%$), and strong in-silico causal perturbation effects ($do(\\text{lncRNA}=0)$):\n")
 
     top_gold = gold_candidates.head(12)
@@ -248,8 +248,9 @@ def run_novelty_mining():
         md.append(f"| {int(r['rank'])} | **{r['symbol']}** | `{r['gene']}` | **{r['mrs_score']:.4f}** | {r['stability_mean']*100:.1f}% | {int(r['out_degree'])} | {int(r['cascade_reach'])} | {ko_str} | {target_axis} |")
 
     md.append("\n#### Detailed Mechanistic Profiles of Top 5 Tier 1 Candidates:\n")
+
     md.append("1. **`LINC00539` (MRS Rank #2, Score: 0.9446):**")
-    md.append("   - **Novelty:** 0 AML publications (completely unstudied in myeloid leukemia).")
+    md.append("   - **Novelty:** 0 AML publications (no prior AML-specific publications indexed in PubMed).")
     md.append("   - **Causal Architecture:** Direct outgoing causal edges to 99 downstream targets; reaches 528 genes across the network (bootstrap stability 95.8%).")
     md.append("   - **In-Silico KO Effect:** In-silico silencing collapses `MEIS1` (-5.23%), `BCL2` (-3.70%), and `HOXA9` (-3.39%).")
     md.append("   - **Biological Role:** Upstream orchestrator of stemness maintenance and Venetoclax resistance.\n")
