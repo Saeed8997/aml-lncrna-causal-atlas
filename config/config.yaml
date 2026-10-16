@@ -5,11 +5,14 @@ project:
   random_seed: 42
 
 endpoints:
+  primary_atlas_collection_url: "https://cellxgene.cziscience.com/collections/071b706a-7ea7-47a4-bddf-6457725839fc"
   primary_atlas_url: "https://datasets.cellxgene.cziscience.com/be1f3ced-6b8f-47b0-a3e2-7edc8d466abd.h5ad"
   primary_atlas_size_bytes: 6398033807
   crispri_readcounts_url: "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE318nnn/GSE318789/suppl/GSE318789_MOLM13_All_Readcount_Data.txt.gz"
   geo_accession: "GSE318789"
   pmcid: "PMC13318546"
+  pmid: "42388349"
+  doi: "10.1016/j.ncrna.2026.05.002"
 
 paths:
   kaggle_tmp_h5ad: "/tmp/aml_scatlas_748k.h5ad"
