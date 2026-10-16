@@ -228,7 +228,6 @@ While this framework combines robust constraint-based causal inference, extensiv
 │   └── validation.py                   # CRISPRi hypergeometric enrichment testing
 ├── tests/
 │   └── test_causal_pipeline.py         # Unit & integration testing suite
-├── Dockerfile                          # Container specification
 ├── LICENSE                             # MIT License
 ├── README.md                           # Comprehensive documentation
 └── requirements.txt                    # Project dependencies
