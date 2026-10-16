@@ -287,7 +287,7 @@ Open `http://localhost:8501` in any modern web browser to explore:
 ## 7. Citations, License & AI Collaboration Disclosure
 
 ### Data Attribution & Citation
-If you utilize this atlas, methodology, or code in your research, please cite:
+
 1. **Primary AML Single-Cell Atlas:** Whittle J, Meyer S, Lacaud G, et al. (2026). *Single-cell atlas of AML reveals age-related gene regulatory networks in t(8;21) AML*. *eLife*, 14:RP104978. [DOI: 10.7554/eLife.104978](https://doi.org/10.7554/eLife.104978) | [PMID: 41671045](https://pubmed.ncbi.nlm.nih.gov/41671045/) | [PMCID: PMC12893711](https://pmc.ncbi.nlm.nih.gov/articles/PMC12893711/)
 2. **CELLxGENE Data Collection:** Single-Cell Atlas of Acute Myeloid Leukemia (AML scAtlas), CZ CELLxGENE Discover. [Collection UUID: 071b706a-7ea7-47a4-bddf-6457725839fc](https://cellxgene.cziscience.com/collections/071b706a-7ea7-47a4-bddf-6457725839fc) (`be1f3ced-6b8f-47b0-a3e2-7edc8d466abd.h5ad`).
 3. **CRISPRi Functional Screens:** Cozzi E, Neddermeyer A, Miliara S, et al. (2026). *Identification of long non-coding RNAs involved in leukemogenesis*. *Non-coding RNA Research*, 20: 29–43. [DOI: 10.1016/j.ncrna.2026.05.002](https://doi.org/10.1016/j.ncrna.2026.05.002) | [PMID: 42388349](https://pubmed.ncbi.nlm.nih.gov/42388349/) | [PMCID: PMC13318546](https://pmc.ncbi.nlm.nih.gov/articles/PMC13318546/) | GEO Accession: [GSE318789](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE318789).
