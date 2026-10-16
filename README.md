@@ -1,4 +1,3 @@
-
 # Causal lncRNA–mRNA Regulatory Atlas of Acute Myeloid Leukemia (AML)
 
 [![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
@@ -6,7 +5,6 @@
 [![Atlas Scale](https://img.shields.io/badge/Single--Cell%20Atlas-748%2C679%20Cells-purple.svg)](https://cellxgene.cziscience.com/)
 [![Kaggle GPU](https://img.shields.io/badge/Compute-NVIDIA%20T4x2%20GPU-orange.svg)](https://www.kaggle.com/)
 [![Streamlit Cloud](https://img.shields.io/badge/Live%20Demo-Streamlit%20Cloud-ff4b4b?logo=streamlit&logoColor=white)](https://aml-lncrna-causal-atlas-iwlfvnkdg3fh5ryg4thp9h.streamlit.app/)
-[![Hugging Face Space](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-yellow)](https://huggingface.co/spaces/butterflymm/aml-lncrna-causal-atlas)
 [![CRISPRi Validated](https://img.shields.io/badge/Validation-GSE318789%20CRISPRi-teal.svg)](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE318789)
 
 > **A Multi-Resolution Constraint-Based Causal Discovery Framework for Single-Cell Metacell Atlases with In-Silico *do*-Calculus and CRISPRi Functional Validation.**
@@ -22,6 +20,7 @@
 - [2. Primary Data Sources & Verification Protocol](#2-primary-data-sources--verification-protocol)
 - [3. Methodological Rigor & Technical Architecture](#3-methodological-rigor--technical-architecture)
 - [4. Key Discovered Findings & Novel Master Regulators](#4-key-discovered-findings--novel-master-regulators)
+  - [Limitations & Caveats](#e-limitations--caveats)
 - [5. Repository File Structure Tree](#5-repository-file-structure-tree)
 - [6. Installation & Interactive Dashboard Execution](#6-installation--interactive-dashboard-execution)
 - [7. Citations, License & AI Collaboration Disclosure](#7-citations-license--ai-collaboration-disclosure)
@@ -54,11 +53,16 @@ This project resolves these challenges by coupling **GPU-accelerated Metacell sp
 
 ## 2. Primary Data Sources & Verification Protocol
 
-| Dataset | Accession / Source | Scale / Format | Biological Purpose |
-|:---|:---|:---|:---|
-| **Primary AML scAtlas** | [CELLxGENE Census](https://cellxgene.cziscience.com/) (`be1f3ced-6b8f-47b0-a3e2-7edc8d466abd.h5ad`) | **748,679 single cells** (6.40 GB uncompressed `.h5ad`) | Cross-cohort single-cell atlas capturing the full developmental spectrum from healthy bone marrow progenitors to refractory AML blasts. |
-| **CRISPRi Screen Reads** | NCBI GEO [GSE318789](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE318789) (PMCID: PMC13318546) | **7,996 lncRNAs** in MOLM-13 AML blasts | Genome-scale CRISPR interference screens measuring proliferation, differentiation, and Venetoclax drug sensitivity. |
-| **Curated Driver Reference** | Human AML Driver Panel | **117 genes** (TFs, effectors, surface markers) | Core regulatory machinery (*HOXA9*, *MEIS1*, *RUNX1*, *MYC*, *SPI1*, *BCL2*, *MCL1*, *CD34*, *FLT3*, *DNMT3A*). |
+| Dataset | Accession / Source | Scale / Format | Biological Purpose | Verified Publication & Links |
+|:---|:---|:---|:---|:---|
+| **Primary AML scAtlas** | [CELLxGENE Collection: AML scAtlas](https://cellxgene.cziscience.com/collections/071b706a-7ea7-47a4-bddf-6457725839fc)<br>Direct file: [`be1f3ced-6b8f-47b0-a3e2-7edc8d466abd.h5ad`](https://datasets.cellxgene.cziscience.com/be1f3ced-6b8f-47b0-a3e2-7edc8d466abd.h5ad) | **748,679 single cells**<br>(6.40 GB uncompressed `.h5ad`) | Cross-cohort single-cell atlas capturing the full developmental spectrum from healthy bone marrow progenitors to refractory AML blasts. | Whittle J, Meyer S, Lacaud G, et al. (2026). *Single-cell atlas of AML reveals age-related gene regulatory networks in t(8;21) AML*. *eLife*, 14:RP104978.<br>[DOI: 10.7554/eLife.104978](https://doi.org/10.7554/eLife.104978) \| [PMID: 41671045](https://pubmed.ncbi.nlm.nih.gov/41671045/) \| [PMCID: PMC12893711](https://pmc.ncbi.nlm.nih.gov/articles/PMC12893711/) |
+| **CRISPRi Screen Reads** | NCBI GEO [GSE318789](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE318789)<br>BioProject: [PRJNA1420621](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1420621) | **7,996 lncRNAs**<br>in MOLM-13 AML blasts | Genome-scale CRISPR interference screens measuring proliferation, differentiation, and Venetoclax drug sensitivity. | Cozzi E, Neddermeyer A, Miliara S, et al. (2026). *Identification of long non-coding RNAs involved in leukemogenesis*. *Non-coding RNA Research*, 20: 29–43.<br>[DOI: 10.1016/j.ncrna.2026.05.002](https://doi.org/10.1016/j.ncrna.2026.05.002) \| [PMID: 42388349](https://pubmed.ncbi.nlm.nih.gov/42388349/) \| [PMCID: PMC13318546](https://pmc.ncbi.nlm.nih.gov/articles/PMC13318546/) |
+| **Curated Driver Reference** | Human AML Driver Panel | **117 genes**<br>(TFs, effectors, surface markers) | Core regulatory machinery (*HOXA9*, *MEIS1*, *RUNX1*, *MYC*, *SPI1*, *BCL2*, *MCL1*, *CD34*, *FLT3*, *DNMT3A*). | Curated consensus literature panel & COSMIC myeloid gene catalog. |
+
+> [!NOTE]
+> **Data Access Clarification:**
+> - **Pre-computed Compact Metacell Atlas (`results/metacell_atlas_compact.h5ad`, 6.40 MB):** Included directly within this repository. This compact dense representation allows you to execute the interactive dashboard, run causal network simulations, explore in-silico knockouts, and pass the entire unit test suite immediately without downloading external multi-gigabyte files.
+> - **Full Raw Single-Cell Dataset (`be1f3ced-6b8f-47b0-a3e2-7edc8d466abd.h5ad`, 6.40 GB):** Freely accessible and downloadable directly from the [CELLxGENE Collection](https://cellxgene.cziscience.com/collections/071b706a-7ea7-47a4-bddf-6457725839fc). This raw single-cell matrix is only needed if you wish to re-run the full GPU-accelerated metacell generation and clustering pipeline from scratch.
 
 ---
 
@@ -119,7 +123,7 @@ Ranking is governed by the multi-component Master Regulator Score ($MRS = 0.35 \
 | Rank | Symbol | Ensembl ID | MRS Score | Out-Degree | Cascade Reach | Bootstrap Stability | Novelty Classification | Functional Profile |
 |:---:|:---|:---|:---:|:---:|:---:|:---:|:---:|:---|
 | **#1** | **`LINC00662`** | `ENSG00000261824` | **0.9556** | **97** | **566 genes** | **96.2%** | Tier 2 (1 AML paper) | **Pan-AML Master Driver Benchmark:** Broadest regulatory reach in the atlas, buffering lineage survival. |
-| **#2** | **`LINC00539`** | `ENSG00000224429` | **0.9446** | **99** | **528 genes** | **95.8%** | **Tier 1 (0 AML papers)** | **Gold-Standard Novel Target:** Direct causal parent to *BCL2* and *MEIS1*; completely unstudied in AML. |
+| **#2** | **`LINC00539`** | `ENSG00000224429` | **0.9446** | **99** | **528 genes** | **95.8%** | **Tier 1 (0 AML papers)** | **High-Priority Novel Candidate:** Direct causal parent to *BCL2* and *MEIS1*; no prior AML-specific publications indexed in PubMed. |
 | **#3** | **`LINC01003`** | `ENSG00000261455` | **0.9120** | **93** | **597 genes** | **94.2%** | Tier 2 (1 AML paper) | **Global Transcriptional Modulator:** Reaches 92% of network nodes; highest single knockout potency. |
 | **#4** | **`STX18-AS1`** | `ENSG00000247708` | **0.8823** | **101** | **492 genes** | **92.6%** | **Tier 1 (0 AML papers)** | **Master Transcriptional Hub:** Highest out-degree in the atlas; dual stemness and apoptosis driver. |
 | **#5** | **`LINC00667`** | `ENSG00000263753` | **0.8398** | **75** | **534 genes** | **93.8%** | **Tier 1 (0 AML papers)** | **Apoptosis Switch:** Direct parent to *MYC* and *IKZF1*; prime target for Venetoclax re-sensitization. |
@@ -156,6 +160,15 @@ Our constraint-based causal graphs identified high-confidence multi-step cascade
 - **`EIF1B-AS1 -> CEBPB -> MCL1 / BCL2A1`** (100% confidence; Trans): Master driver of monocytic Venetoclax resistance through anti-apoptotic redundancy.
 - **`MCM3AP-AS1 -> GATA2 -> CD34`** (100% confidence; Cis 21q22): Locks primitive hematopoietic progenitor programs in leukemia stem cells.
 
+### E. Limitations & Caveats
+
+While this framework combines robust constraint-based causal inference, extensive prior biological constraints, and genome-scale orthogonal CRISPRi screen benchmarking, several methodological and biological caveats must be acknowledged:
+
+1. **Causal Discovery Assumptions:** The constraint-based PC algorithm equipped with RobustFisherZ conditional independence testing operates under standard causal inference assumptions—namely causal sufficiency (absence of unobserved confounders within the selected feature set), the causal Markov condition, faithfulness, and acyclicity (DAG structure). Although acyclicity is biologically necessary for standard Pearlian SCM formalization and prevents unstable cyclic blow-ups, it simplifies reciprocal biological feedback loops (e.g., auto-regulatory transcriptional circuits) and remains sensitive to unmeasured latent confounders.
+2. **Residual Batch & Cohort Effects:** Single-cell metacell spatial pooling groups transcriptionally homogeneous nearest neighbors to substantially mitigate droplet scRNA-seq dropout, technical noise, and zero-inflation. Nonetheless, the primary AML scAtlas aggregates diverse clinical cohorts across multiple sequencing centers and patient donors, which may introduce subtle residual batch heterogeneity or cohort-specific baseline shifts.
+3. **Linearity of In-Silico Perturbations:** Pearlian $do(\text{lncRNA}=0)$ in-silico gene silencing simulations are modeled via regularized Ridge Structural Causal Models (SCMs). While Ridge regularization stabilizes high-dimensional coefficient estimation and avoids overfitting, it models additive, linear interactions between parents and children. Consequently, predicted knockdown shifts represent first-order transcriptional responses rather than non-linear regulatory saturation or complex cooperative thresholds.
+4. **Cell-Line Validation Scope:** Genome-scale functional CRISPRi benchmarking (`GSE318789`) was conducted empirically in MOLM-13 acute myeloid leukemia blasts, an established *MLL*-rearranged (*KMT2A*-rearranged) and *FLT3*-ITD-mutated monocytic AML model. While MOLM-13 provides a rigorous, high-throughput functional system for assessing proliferation, myeloid differentiation, and Venetoclax response, candidate regulatory potency and translational efficacy across other cytogenetic and molecular AML subtypes (e.g., *NPM1*-mutated, *RUNX1*-mutated, adverse-risk complex karyotypes) warrant extended experimental validation in primary patient-derived blast cohorts.
+
 ---
 
 ## 5. Repository File Structure Tree
@@ -180,6 +193,7 @@ Our constraint-based causal graphs identified high-confidence multi-step cascade
 │   │   ├── mrs_top_lncrnas.png
 │   │   └── venetoclax_ko_heatmap.png
 │   ├── logs/                           # Execution logs
+│   │   └── pipeline_execution.log      # Complete pipeline execution log
 │   ├── networks/                       # Directed Acyclic Graphs (.graphml format)
 │   │   ├── global_dag.graphml          # 649 nodes, 16,782 edges (9,020 directed)
 │   │   ├── lsc_dag.graphml             # 635 nodes, 8,082 edges (4,304 directed)
@@ -202,6 +216,7 @@ Our constraint-based causal graphs identified high-confidence multi-step cascade
 │   ├── 03_mine_novel_discoveries.py    # Offline novelty & pathway miner
 │   └── plot_causal_network.py          # Publication network figure generator
 ├── src/                                # Core Computational Engine
+│   ├── __init__.py                     # Package initializer
 │   ├── causal_discovery.py             # Bootstrap PC algorithm with RobustFisherZ
 │   ├── data_loading.py                 # Streaming download & memory-mapped loaders
 │   ├── feature_selection.py            # Dual-criteria lncRNA annotation & ID mapping
@@ -213,6 +228,7 @@ Our constraint-based causal graphs identified high-confidence multi-step cascade
 │   └── validation.py                   # CRISPRi hypergeometric enrichment testing
 ├── tests/
 │   └── test_causal_pipeline.py         # Unit & integration testing suite
+├── Dockerfile                          # Container specification
 ├── LICENSE                             # MIT License
 ├── README.md                           # Comprehensive documentation
 └── requirements.txt                    # Project dependencies
@@ -222,7 +238,7 @@ Our constraint-based causal graphs identified high-confidence multi-step cascade
 
 ## 6. Installation & Interactive Dashboard Execution
 
-### 🌐 Live Cloud Web Applications (Instant Access)
+### 🌐 Live Cloud Web Application (Instant Access)
 You can directly explore the interactive causal simulator without installing anything locally:
 - **Streamlit Community Cloud:** [https://aml-lncrna-causal-atlas-iwlfvnkdg3fh5ryg4thp9h.streamlit.app/](https://aml-lncrna-causal-atlas-iwlfvnkdg3fh5ryg4thp9h.streamlit.app/)
 
@@ -230,27 +246,34 @@ You can directly explore the interactive causal simulator without installing any
 
 ### Local Setup & Installation
 Clone the repository and install dependencies in a clean virtual environment:
-```powershell
+```bash
 git clone https://github.com/Saeed8997/aml-lncrna-causal-atlas.git
 cd aml-lncrna-causal-atlas
 
-# Create and activate virtual environment
+# Create virtual environment
 python -m venv .venv
+
+# Activate virtual environment:
+# Linux / macOS:
+source .venv/bin/activate
+# Windows (Command Prompt / PowerShell):
 .venv\Scripts\activate
 
 # Install requirements
 pip install -r requirements.txt
 ```
 
+> **Data Access Clarification:** The pre-computed compact metacell atlas (`results/metacell_atlas_compact.h5ad`, 6.40 MB) is already included in this repository, allowing immediate local execution of the dashboard, analysis scripts, and unit tests without downloading the full 6.40 GB raw single-cell file.
+
 ### Running Unit & Integration Tests
 Validate pipeline modules and graph algorithms:
-```powershell
+```bash
 python -m unittest discover tests/
 ```
 
 ### Launching the Interactive D3.js + Streamlit Web App Locally
 Launch the modern, publication-grade interactive dashboard:
-```powershell
+```bash
 python -m streamlit run dashboard/app.py
 ```
 Open `http://localhost:8501` in any modern web browser to explore:
@@ -266,9 +289,10 @@ Open `http://localhost:8501` in any modern web browser to explore:
 
 ### Data Attribution & Citation
 If you utilize this atlas, methodology, or code in your research, please cite:
-1. **CELLxGENE Single-Cell AML Atlas:** CZI Science single-cell data platform.
-2. **CRISPRi Functional Screens:** NCBI GEO `GSE318789`, PMCID: [PMC13318546](https://pubmed.ncbi.nlm.nih.gov/38318546/).
-3. **Pearlian Causal Inference & PC Algorithm:** Spirtes, Glymour, Scheines (2000); Pearl (2009).
+1. **Primary AML Single-Cell Atlas:** Whittle J, Meyer S, Lacaud G, et al. (2026). *Single-cell atlas of AML reveals age-related gene regulatory networks in t(8;21) AML*. *eLife*, 14:RP104978. [DOI: 10.7554/eLife.104978](https://doi.org/10.7554/eLife.104978) | [PMID: 41671045](https://pubmed.ncbi.nlm.nih.gov/41671045/) | [PMCID: PMC12893711](https://pmc.ncbi.nlm.nih.gov/articles/PMC12893711/)
+2. **CELLxGENE Data Collection:** Single-Cell Atlas of Acute Myeloid Leukemia (AML scAtlas), CZ CELLxGENE Discover. [Collection UUID: 071b706a-7ea7-47a4-bddf-6457725839fc](https://cellxgene.cziscience.com/collections/071b706a-7ea7-47a4-bddf-6457725839fc) (`be1f3ced-6b8f-47b0-a3e2-7edc8d466abd.h5ad`).
+3. **CRISPRi Functional Screens:** Cozzi E, Neddermeyer A, Miliara S, et al. (2026). *Identification of long non-coding RNAs involved in leukemogenesis*. *Non-coding RNA Research*, 20: 29–43. [DOI: 10.1016/j.ncrna.2026.05.002](https://doi.org/10.1016/j.ncrna.2026.05.002) | [PMID: 42388349](https://pubmed.ncbi.nlm.nih.gov/42388349/) | [PMCID: PMC13318546](https://pmc.ncbi.nlm.nih.gov/articles/PMC13318546/) | GEO Accession: [GSE318789](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE318789).
+4. **Pearlian Causal Inference & PC Algorithm:** Spirtes P, Glymour C, Scheines R (2000). *Causation, Prediction, and Search*. MIT Press; Pearl J (2009). *Causality: Models, Reasoning, and Inference*. Cambridge University Press.
 
 ### License
 This project is open-source software licensed under the **[MIT License](LICENSE)**.
