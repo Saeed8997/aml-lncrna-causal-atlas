@@ -225,7 +225,6 @@ Our constraint-based causal graphs identified high-confidence multi-step cascade
 ### 🌐 Live Cloud Web Applications (Instant Access)
 You can directly explore the interactive causal simulator without installing anything locally:
 - **Streamlit Community Cloud:** [https://aml-lncrna-causal-atlas-iwlfvnkdg3fh5ryg4thp9h.streamlit.app/](https://aml-lncrna-causal-atlas-iwlfvnkdg3fh5ryg4thp9h.streamlit.app/)
-- **Hugging Face Spaces (Docker):** [https://huggingface.co/spaces/butterflymm/aml-lncrna-causal-atlas](https://huggingface.co/spaces/butterflymm/aml-lncrna-causal-atlas)
 
 ---
 
