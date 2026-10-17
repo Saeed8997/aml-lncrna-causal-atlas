@@ -39,12 +39,12 @@ Traditional computational approaches rely on correlative co-expression networks 
 
 ```mermaid
 flowchart LR
-    A["CELLxGENE AML Atlas<br>748,679 Cells (6.4 GB)"] --> B["GPU Metacell Pooling<br>2,476 Metacells (35 cells/cohort)"]
+    A["CELLxGENE AML Atlas<br>748,679 Cells<br>(6.4 GB)"] --> B["GPU Metacell Pooling<br>2,476 Metacells<br>(35 cells/cohort)"]
     B --> C["Dual Feature Selection<br>650 Hybrid Genes"]
-    C --> D["Constraint-Based Discovery<br>PC Algorithm + RobustFisherZ"]
-    D --> E["Multi-Resolution GRNs<br>Global, LSC-like, Monocytic"]
-    E --> F["Pearlian do-Calculus<br>Ridge SCM Knockout Simulation"]
-    F --> G["CRISPRi Benchmarking<br>GSE318789 Validation (MOLM-13)"]
+    C --> D["Constraint-Based Discovery<br>PC Algorithm<br>+ RobustFisherZ"]
+    D --> E["Multi-Resolution GRNs<br>Global, LSC-like,<br>Monocytic"]
+    E --> F["Pearlian do-Calculus<br>Ridge SCM<br>Knockout Simulation"]
+    F --> G["CRISPRi Benchmarking<br>GSE318789 Validation<br>(MOLM-13)"]
 ```
 
 This project resolves these challenges by coupling **GPU-accelerated Metacell spatial smoothing** with **Constraint-Based Causal Discovery (PC algorithm with RobustFisherZ)** backed by **56,341 biological background knowledge constraints**, reconstructing directed causal Gene Regulatory Networks (GRNs) across cell states, simulating Pearlian interventions ($do(\text{lncRNA}=0)$), and benchmarking findings against genome-scale CRISPRi screens.
